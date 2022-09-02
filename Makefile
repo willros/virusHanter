@@ -1,10 +1,14 @@
 install:
 	pip install --upgrade pip
 	pip install -r requirements.txt
-#format:
-#	black *.py tests/*.py virusHanter/*.py tests/*.py
-#lint:
-#	pylint --disable=R,C *.py virusHanter/*.py tests/*.py
+    
+    
+format:
+	black *.py plotting/*.py ldap-login/*.py forms/*.py
+
+lint:
+	pylint --disable=R,C *.py plotting/*.py ldap-login/*.py forms/*.py
+
 #test:
 #	python -m pytest -vv --cov=virusHanter --cov=main tests/*
 #build:
