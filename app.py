@@ -46,11 +46,16 @@ def contig_inspection():
     """
     Shows information and plots about the quality and coverage of the contigs made by MEGAHIT.
     """
+    # make this into a session variable which the user can switch between in the right sidebar
+    current_sample = "sample1"
+
     # files (need to make this automated later)
-    megahit_csv = "static/data/sample1/results/megahit/Bat-Guano-15_S6_L001_R.csv"
-    short = "static/data/sample1/results/plots/short.pdf"
-    medium = "static/data/sample1/results/plots/medium.pdf"
-    long = "static/data/sample1/results/plots/long.pdf"
+    megahit_csv = (
+        f"static/data/{current_sample}/results/megahit/Bat-Guano-15_S6_L001_R.csv"
+    )
+    short = f"static/data/{current_sample}/results/plots/short.pdf"
+    medium = f"static/data/{current_sample}/results/plots/medium.pdf"
+    long = f"static/data/{current_sample}/results/plots/long.pdf"
 
     # plots
     histogram = contig_quality.megahit_contig_histogram(file=megahit_csv)

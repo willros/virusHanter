@@ -68,7 +68,7 @@ def megahit_contig_coverage_facet(file: str) -> list[alt.vegalite.v4.api.Chart]:
     )
 
     step_size = {"short": 50, "medium": 150, "long": 2000}
-    colors = {"short": 'blue', "medium": 'green', "long": 'purple'}
+    colors = {"short": "blue", "medium": "green", "long": "purple"}
 
     for contig in ["short", "medium", "long"]:
 
