@@ -4,10 +4,9 @@
 
 {% block content %}
     
-    <h1> Histogram </h1>
-    {{ plot_altair(histogram) }}
-
+    {{ plot_altair(histogram )}}
     <h1> Coverage short contigs </h1>
+
     <img src="{{ short }}" alt="Short Contigs">
 
 {% endblock content%}
