@@ -1,0 +1,154 @@
+percent,level,tax_id,name,domain
+0.7418,D,10239,  Viruses,Virus
+0.7204,D1,2559587,    Riboviria,Virus
+0.7034,K,2732396,      Orthornavirae,Virus
+0.6828,P,2497569,        Negarnaviricota,Virus
+0.6828,P1,2497571,          Polyploviricotina,Virus
+0.6828,C,2497576,            Ellioviricetes,Virus
+0.6828,O,1980410,              Bunyavirales,Virus
+0.6828,F,1980418,                Phenuiviridae,Virus
+0.6828,G,11584,                  Phlebovirus,Virus
+0.6828,S,1933187,                    Rift Valley fever phlebovirus,Virus
+0.0206,P,2732408,        Pisuviricota,Virus
+0.0206,C,2732506,          Pisoniviricetes,Virus
+0.0204,O,76804,            Nidovirales,Virus
+0.0204,O1,2499399,              Cornidovirineae,Virus
+0.0204,F,11118,                Coronaviridae,Virus
+0.0204,F1,2501931,                  Orthocoronavirinae,Virus
+0.019,G,693996,                    Alphacoronavirus,Virus
+0.013300000000000001,G1,2509505,                      Pedacovirus,Virus
+0.0074,S,28295,                        Porcine epidemic diarrhea virus,Virus
+0.0058,S,693999,                        Scotophilus bat coronavirus 512,Virus
+0.0015,G1,2509503,                      Nyctacovirus,Virus
+0.0015,S,2501928,                        Nyctalus velutinus alphacoronavirus SC-2013,Virus
+0.0012,G1,2509512,                      Setracovirus,Virus
+0.0012,S,2501929,                        NL63-related bat coronavirus strain BtKYNL63-9b,Virus
+0.0012,G1,2509492,                      Luchacovirus,Virus
+0.0012,S,1508224,                        Lucheng Rn rat coronavirus,Virus
+0.0008,G1,2509496,                      Minacovirus,Virus
+0.0008,S,1913642,                        Mink coronavirus 1,Virus
+0.0006,G1,2509497,                      Minunacovirus,Virus
+0.0006,S,694000,                        Miniopterus bat coronavirus 1,Virus
+0.0002,G1,2509500,                      Myotacovirus,Virus
+0.0002,S,2501927,                        Myotis ricketti alphacoronavirus Sax-2011,Virus
+0.0001,G1,2509477,                      Colacovirus,Virus
+0.0001,S,1913643,                        Bat coronavirus CDPHE15,Virus
+0.0011,G,694013,                    Gammacoronavirus,Virus
+0.0011,G1,2509487,                      Igacovirus,Virus
+0.0011,S,694014,                        Avian coronavirus,Virus
+0.0003,G,1159901,                    Deltacoronavirus,Virus
+0.0003,G1,2509474,                      Buldecovirus,Virus
+0.0003,S,1159907,                        White-eye coronavirus HKU16,Virus
+0.0002,O,464095,            Picornavirales,Virus
+0.0002,F,232795,              Dicistroviridae,Virus
+0.0002,F1,336635,                unclassified Dicistroviridae,Virus
+0.0002,S,1776109,                  Goose dicistrovirus,Virus
+0.017,K,2732397,      Pararnavirae,Virus
+0.017,P,2732409,        Artverviricota,Virus
+0.017,C,2732514,          Revtraviricetes,Virus
+0.0101,O,2169561,            Ortervirales,Virus
+0.0101,F,11632,              Retroviridae,Virus
+0.0101,F1,327045,                Orthoretrovirinae,Virus
+0.0101,G,11646,                  Lentivirus,Virus
+0.0101,S,11676,                    Human immunodeficiency virus 1,Virus
+0.0069,O,2732515,            Blubervirales,Virus
+0.0069,F,10404,              Hepadnaviridae,Virus
+0.0069,G,10405,                Orthohepadnavirus,Virus
+0.0069,S,35269,                  Woodchuck hepatitis virus,Virus
+0.0202,D1,2732004,    Varidnaviria,Virus
+0.0202,K,2732005,      Bamfordvirae,Virus
+0.0202,P,2732008,        Preplasmiviricota,Virus
+0.0202,C,2732529,          Tectiliviricetes,Virus
+0.0202,O,2732559,            Rowavirales,Virus
+0.0202,F,10508,              Adenoviridae,Virus
+0.0202,G,10509,                Mastadenovirus,Virus
+0.0202,S,129951,                  Human mastadenovirus C,Virus
+0.0013,D1,2731342,    Monodnaviria,Virus
+0.0013,K,2732092,      Shotokuvirae,Virus
+0.0013,P,2732415,        Cossaviricota,Virus
+0.0013,C,2732422,          Quintoviricetes,Virus
+0.0013,O,2732534,            Piccovirales,Virus
+0.0013,F,10780,              Parvoviridae,Virus
+0.001,F1,40120,                Densovirinae,Virus
+0.001,G,136466,                  Brevidensovirus,Virus
+0.001,G1,351053,                    unclassified Brevidensovirus,Virus
+0.001,S,945962,                      Mosquito densovirus BR/07,Virus
+0.0003,F1,2732887,                Hamaparvovirinae,Virus
+0.0003,G,2733230,                  Brevihamaparvovirus,Virus
+0.0003,S,2748961,                    Dipteran brevihamaparvovirus 1,Virus
+0.20980000000000001,D,2759,    Eukaryota,Eukaryota
+0.20980000000000001,D1,33154,      Opisthokonta,Eukaryota
+0.20980000000000001,K,33208,        Metazoa,Eukaryota
+0.20980000000000001,K1,6072,          Eumetazoa,Eukaryota
+0.20980000000000001,K2,33213,            Bilateria,Eukaryota
+0.20980000000000001,K3,33511,              Deuterostomia,Eukaryota
+0.20980000000000001,P,7711,                Chordata,Eukaryota
+0.20980000000000001,P1,89593,                  Craniata,Eukaryota
+0.20980000000000001,P2,7742,                    Vertebrata,Eukaryota
+0.20980000000000001,P3,7776,                      Gnathostomata,Eukaryota
+0.20980000000000001,P4,117570,                        Teleostomi,Eukaryota
+0.20980000000000001,P5,117571,                          Euteleostomi,Eukaryota
+0.20980000000000001,P6,8287,                            Sarcopterygii,Eukaryota
+0.20980000000000001,P7,1338369,                              Dipnotetrapodomorpha,Eukaryota
+0.20980000000000001,P8,32523,                                Tetrapoda,Eukaryota
+0.20980000000000001,P9,32524,                                  Amniota,Eukaryota
+0.20980000000000001,C,40674,                                    Mammalia,Eukaryota
+0.20980000000000001,C1,32525,                                      Theria,Eukaryota
+0.20980000000000001,C2,9347,                                        Eutheria,Eukaryota
+0.20980000000000001,C3,1437010,                                          Boreoeutheria,Eukaryota
+0.20980000000000001,C4,314146,                                            Euarchontoglires,Eukaryota
+0.20980000000000001,O,9443,                                              Primates,Eukaryota
+0.20980000000000001,O1,376913,                                                Haplorrhini,Eukaryota
+0.20980000000000001,O2,314293,                                                  Simiiformes,Eukaryota
+0.20980000000000001,O3,9526,                                                    Catarrhini,Eukaryota
+0.20980000000000001,O4,314295,                                                      Hominoidea,Eukaryota
+0.20980000000000001,F,9604,                                                        Hominidae,Eukaryota
+0.20980000000000001,F1,207598,                                                          Homininae,Eukaryota
+0.20980000000000001,G,9605,                                                            Homo,Eukaryota
+0.20980000000000001,S,9606,                                                              Homo sapiens,Eukaryota
+0.0484,D,2,    Bacteria,Bacteria
+0.0455,P,1224,      Proteobacteria,Bacteria
+0.0453,C,1236,        Gammaproteobacteria,Bacteria
+0.0444,O,91347,          Enterobacterales,Bacteria
+0.044000000000000004,F,543,            Enterobacteriaceae,Bacteria
+0.0335,G,561,              Escherichia,Bacteria
+0.0335,S,562,                Escherichia coli,Bacteria
+0.0104,F1,2890311,              Klebsiella/Raoultella group,Bacteria
+0.0104,G,570,                Klebsiella,Bacteria
+0.0104,S,573,                  Klebsiella pneumoniae,Bacteria
+0.0004,F,1903411,            Yersiniaceae,Bacteria
+0.0004,G,613,              Serratia,Bacteria
+0.0004,S,47917,                Serratia fonticola,Bacteria
+0.0006,O,135625,          Pasteurellales,Bacteria
+0.0006,F,712,            Pasteurellaceae,Bacteria
+0.0006,G,292486,              Avibacterium,Bacteria
+0.0006,S,728,                Avibacterium paragallinarum,Bacteria
+0.0003,O,118969,          Legionellales,Bacteria
+0.0003,F,118968,            Coxiellaceae,Bacteria
+0.0003,G,59195,              Rickettsiella,Bacteria
+0.0003,S,2856608,                Rickettsiella endosymbiont of Dermanyssus gallinae,Bacteria
+0.0002,C,28211,        Alphaproteobacteria,Bacteria
+0.0002,O,204455,          Rhodobacterales,Bacteria
+0.0002,F,31989,            Rhodobacteraceae,Bacteria
+0.0002,G,1653176,              Cereibacter,Bacteria
+0.0002,S,1063,                Cereibacter sphaeroides,Bacteria
+0.0029,D1,1783272,      Terrabacteria group,Bacteria
+0.0027,P,201174,        Actinobacteria,Bacteria
+0.0027,C,1760,          Actinomycetia,Bacteria
+0.0014000000000000002,O,85011,            Streptomycetales,Bacteria
+0.0014000000000000002,F,2062,              Streptomycetaceae,Bacteria
+0.0014000000000000002,G,1883,                Streptomyces,Bacteria
+0.001,S,54571,                  Streptomyces venezuelae,Bacteria
+0.0004,G1,2839105,                  Streptomyces violaceusniger group,Bacteria
+0.0004,S,92644,                    Streptomyces malaysiensis,Bacteria
+0.0013,O,85006,            Micrococcales,Bacteria
+0.0013,F,1331736,              Ruaniaceae,Bacteria
+0.0013,G,626119,                Ruania,Bacteria
+0.0013,S,2603206,                  Ruania zhangjianzhongii,Bacteria
+0.0002,P,1239,        Firmicutes,Bacteria
+0.0002,C,91061,          Bacilli,Bacteria
+0.0002,O,1385,            Bacillales,Bacteria
+0.0002,F,90964,              Staphylococcaceae,Bacteria
+0.0002,G,227979,                Jeotgalicoccus,Bacteria
+0.0002,G1,2630462,                  unclassified Jeotgalicoccus,Bacteria
+0.0002,S,946435,                    Jeotgalicoccus sp. ATCC 8456,Bacteria

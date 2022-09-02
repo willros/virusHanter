@@ -1,0 +1,155 @@
+100.00	76362	0	R	1	root
+74.18	56648	0	D	10239	  Viruses
+72.04	55009	0	D1	2559587	    Riboviria
+70.34	53710	0	K	2732396	      Orthornavirae
+68.28	52138	0	P	2497569	        Negarnaviricota
+68.28	52138	0	P1	2497571	          Polyploviricotina
+68.28	52138	0	C	2497576	            Ellioviricetes
+68.28	52138	0	O	1980410	              Bunyavirales
+68.28	52138	0	F	1980418	                Phenuiviridae
+68.28	52138	0	G	11584	                  Phlebovirus
+68.28	52138	52138	S	1933187	                    Rift Valley fever phlebovirus
+2.06	1572	0	P	2732408	        Pisuviricota
+2.06	1572	0	C	2732506	          Pisoniviricetes
+2.04	1557	0	O	76804	            Nidovirales
+2.04	1557	0	O1	2499399	              Cornidovirineae
+2.04	1557	0	F	11118	                Coronaviridae
+2.04	1557	0	F1	2501931	                  Orthocoronavirinae
+1.90	1448	0	G	693996	                    Alphacoronavirus
+1.33	1014	0	G1	2509505	                      Pedacovirus
+0.74	568	568	S	28295	                        Porcine epidemic diarrhea virus
+0.58	446	446	S	693999	                        Scotophilus bat coronavirus 512
+0.15	111	0	G1	2509503	                      Nyctacovirus
+0.15	111	111	S	2501928	                        Nyctalus velutinus alphacoronavirus SC-2013
+0.12	95	0	G1	2509512	                      Setracovirus
+0.12	95	95	S	2501929	                        NL63-related bat coronavirus strain BtKYNL63-9b
+0.12	93	0	G1	2509492	                      Luchacovirus
+0.12	93	93	S	1508224	                        Lucheng Rn rat coronavirus
+0.08	62	0	G1	2509496	                      Minacovirus
+0.08	62	62	S	1913642	                        Mink coronavirus 1
+0.06	44	0	G1	2509497	                      Minunacovirus
+0.06	44	44	S	694000	                        Miniopterus bat coronavirus 1
+0.02	18	0	G1	2509500	                      Myotacovirus
+0.02	18	18	S	2501927	                        Myotis ricketti alphacoronavirus Sax-2011
+0.01	11	0	G1	2509477	                      Colacovirus
+0.01	11	11	S	1913643	                        Bat coronavirus CDPHE15
+0.11	83	0	G	694013	                    Gammacoronavirus
+0.11	83	0	G1	2509487	                      Igacovirus
+0.11	83	83	S	694014	                        Avian coronavirus
+0.03	26	0	G	1159901	                    Deltacoronavirus
+0.03	26	0	G1	2509474	                      Buldecovirus
+0.03	26	26	S	1159907	                        White-eye coronavirus HKU16
+0.02	15	0	O	464095	            Picornavirales
+0.02	15	0	F	232795	              Dicistroviridae
+0.02	15	0	F1	336635	                unclassified Dicistroviridae
+0.02	15	15	S	1776109	                  Goose dicistrovirus
+1.70	1299	0	K	2732397	      Pararnavirae
+1.70	1299	0	P	2732409	        Artverviricota
+1.70	1299	0	C	2732514	          Revtraviricetes
+1.01	769	0	O	2169561	            Ortervirales
+1.01	769	0	F	11632	              Retroviridae
+1.01	769	0	F1	327045	                Orthoretrovirinae
+1.01	769	0	G	11646	                  Lentivirus
+1.01	769	769	S	11676	                    Human immunodeficiency virus 1
+0.69	530	0	O	2732515	            Blubervirales
+0.69	530	0	F	10404	              Hepadnaviridae
+0.69	530	0	G	10405	                Orthohepadnavirus
+0.69	530	530	S	35269	                  Woodchuck hepatitis virus
+2.02	1541	0	D1	2732004	    Varidnaviria
+2.02	1541	0	K	2732005	      Bamfordvirae
+2.02	1541	0	P	2732008	        Preplasmiviricota
+2.02	1541	0	C	2732529	          Tectiliviricetes
+2.02	1541	0	O	2732559	            Rowavirales
+2.02	1541	0	F	10508	              Adenoviridae
+2.02	1541	0	G	10509	                Mastadenovirus
+2.02	1541	1541	S	129951	                  Human mastadenovirus C
+0.13	98	0	D1	2731342	    Monodnaviria
+0.13	98	0	K	2732092	      Shotokuvirae
+0.13	98	0	P	2732415	        Cossaviricota
+0.13	98	0	C	2732422	          Quintoviricetes
+0.13	98	0	O	2732534	            Piccovirales
+0.13	98	0	F	10780	              Parvoviridae
+0.10	75	0	F1	40120	                Densovirinae
+0.10	75	0	G	136466	                  Brevidensovirus
+0.10	75	0	G1	351053	                    unclassified Brevidensovirus
+0.10	75	75	S	945962	                      Mosquito densovirus BR/07
+0.03	22	0	F1	2732887	                Hamaparvovirinae
+0.03	22	0	G	2733230	                  Brevihamaparvovirus
+0.03	22	22	S	2748961	                    Dipteran brevihamaparvovirus 1
+25.82	19713	0	R1	131567	  cellular organisms
+20.98	16017	0	D	2759	    Eukaryota
+20.98	16017	0	D1	33154	      Opisthokonta
+20.98	16017	0	K	33208	        Metazoa
+20.98	16017	0	K1	6072	          Eumetazoa
+20.98	16017	0	K2	33213	            Bilateria
+20.98	16017	0	K3	33511	              Deuterostomia
+20.98	16017	0	P	7711	                Chordata
+20.98	16017	0	P1	89593	                  Craniata
+20.98	16017	0	P2	7742	                    Vertebrata
+20.98	16017	0	P3	7776	                      Gnathostomata
+20.98	16017	0	P4	117570	                        Teleostomi
+20.98	16017	0	P5	117571	                          Euteleostomi
+20.98	16017	0	P6	8287	                            Sarcopterygii
+20.98	16017	0	P7	1338369	                              Dipnotetrapodomorpha
+20.98	16017	0	P8	32523	                                Tetrapoda
+20.98	16017	0	P9	32524	                                  Amniota
+20.98	16017	0	C	40674	                                    Mammalia
+20.98	16017	0	C1	32525	                                      Theria
+20.98	16017	0	C2	9347	                                        Eutheria
+20.98	16017	0	C3	1437010	                                          Boreoeutheria
+20.98	16017	0	C4	314146	                                            Euarchontoglires
+20.98	16017	0	O	9443	                                              Primates
+20.98	16017	0	O1	376913	                                                Haplorrhini
+20.98	16017	0	O2	314293	                                                  Simiiformes
+20.98	16017	0	O3	9526	                                                    Catarrhini
+20.98	16017	0	O4	314295	                                                      Hominoidea
+20.98	16017	0	F	9604	                                                        Hominidae
+20.98	16017	0	F1	207598	                                                          Homininae
+20.98	16017	0	G	9605	                                                            Homo
+20.98	16017	16017	S	9606	                                                              Homo sapiens
+4.84	3695	0	D	2	    Bacteria
+4.55	3471	0	P	1224	      Proteobacteria
+4.53	3456	0	C	1236	        Gammaproteobacteria
+4.44	3387	0	O	91347	          Enterobacterales
+4.40	3356	0	F	543	            Enterobacteriaceae
+3.35	2560	0	G	561	              Escherichia
+3.35	2560	2560	S	562	                Escherichia coli
+1.04	796	0	F1	2890311	              Klebsiella/Raoultella group
+1.04	796	0	G	570	                Klebsiella
+1.04	796	796	S	573	                  Klebsiella pneumoniae
+0.04	31	0	F	1903411	            Yersiniaceae
+0.04	31	0	G	613	              Serratia
+0.04	31	31	S	47917	                Serratia fonticola
+0.06	47	0	O	135625	          Pasteurellales
+0.06	47	0	F	712	            Pasteurellaceae
+0.06	47	0	G	292486	              Avibacterium
+0.06	47	47	S	728	                Avibacterium paragallinarum
+0.03	21	0	O	118969	          Legionellales
+0.03	21	0	F	118968	            Coxiellaceae
+0.03	21	0	G	59195	              Rickettsiella
+0.03	21	21	S	2856608	                Rickettsiella endosymbiont of Dermanyssus gallinae
+0.02	15	0	C	28211	        Alphaproteobacteria
+0.02	15	0	O	204455	          Rhodobacterales
+0.02	15	0	F	31989	            Rhodobacteraceae
+0.02	15	0	G	1653176	              Cereibacter
+0.02	15	15	S	1063	                Cereibacter sphaeroides
+0.29	223	0	D1	1783272	      Terrabacteria group
+0.27	206	0	P	201174	        Actinobacteria
+0.27	206	0	C	1760	          Actinomycetia
+0.14	109	0	O	85011	            Streptomycetales
+0.14	109	0	F	2062	              Streptomycetaceae
+0.14	109	0	G	1883	                Streptomyces
+0.10	74	74	S	54571	                  Streptomyces venezuelae
+0.04	34	0	G1	2839105	                  Streptomyces violaceusniger group
+0.04	34	34	S	92644	                    Streptomyces malaysiensis
+0.13	97	0	O	85006	            Micrococcales
+0.13	97	0	F	1331736	              Ruaniaceae
+0.13	97	0	G	626119	                Ruania
+0.13	97	97	S	2603206	                  Ruania zhangjianzhongii
+0.02	16	0	P	1239	        Firmicutes
+0.02	16	0	C	91061	          Bacilli
+0.02	16	0	O	1385	            Bacillales
+0.02	16	0	F	90964	              Staphylococcaceae
+0.02	16	0	G	227979	                Jeotgalicoccus
+0.02	16	0	G1	2630462	                  unclassified Jeotgalicoccus
+0.02	16	16	S	946435	                    Jeotgalicoccus sp. ATCC 8456

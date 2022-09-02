@@ -1,0 +1,904 @@
+taxon_id,taxonomy,percent,taxon_name
+11588,Viruses,0.44958008,Rift Valley fever virus
+11588,Orthornavirae,0.44958008,Rift Valley fever virus
+11588,Riboviria,0.44958008,Rift Valley fever virus
+11588,Rift Valley fever virus,0.44958008,Rift Valley fever virus
+11588,Rift Valley fever phlebovirus,0.44958008,Rift Valley fever virus
+11588,Phlebovirus,0.44958008,Rift Valley fever virus
+11588,Phenuiviridae,0.44958008,Rift Valley fever virus
+11588,Bunyavirales,0.44958008,Rift Valley fever virus
+11588,Ellioviricetes,0.44958008,Rift Valley fever virus
+11588,Polyploviricotina,0.44958008,Rift Valley fever virus
+11588,Negarnaviricota,0.44958008,Rift Valley fever virus
+28295,Orthocoronavirinae,0.03130741,Porcine epidemic diarrhea virus
+28295,Pisoniviricetes,0.03130741,Porcine epidemic diarrhea virus
+28295,Coronaviridae,0.03130741,Porcine epidemic diarrhea virus
+28295,Cornidovirineae,0.03130741,Porcine epidemic diarrhea virus
+28295,Nidovirales,0.03130741,Porcine epidemic diarrhea virus
+28295,Viruses,0.03130741,Porcine epidemic diarrhea virus
+28295,Pisuviricota,0.03130741,Porcine epidemic diarrhea virus
+28295,Orthornavirae,0.03130741,Porcine epidemic diarrhea virus
+28295,Riboviria,0.03130741,Porcine epidemic diarrhea virus
+28295,Alphacoronavirus,0.03130741,Porcine epidemic diarrhea virus
+28295,Porcine epidemic diarrhea virus,0.03130741,Porcine epidemic diarrhea virus
+28295,Pedacovirus,0.03130741,Porcine epidemic diarrhea virus
+693999,Scotophilus bat coronavirus 512,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Orthocoronavirinae,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Orthornavirae,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Pisuviricota,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Pisoniviricetes,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Nidovirales,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Cornidovirineae,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Coronaviridae,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Alphacoronavirus,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Viruses,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Pedacovirus,0.028467250000000003,Scotophilus bat coronavirus 512
+693999,Riboviria,0.028467250000000003,Scotophilus bat coronavirus 512
+693996,Cornidovirineae,0.01856886,Alphacoronavirus
+693996,Pisuviricota,0.01856886,Alphacoronavirus
+693996,Coronaviridae,0.01856886,Alphacoronavirus
+693996,Orthocoronavirinae,0.01856886,Alphacoronavirus
+693996,Alphacoronavirus,0.01856886,Alphacoronavirus
+693996,Viruses,0.01856886,Alphacoronavirus
+693996,Riboviria,0.01856886,Alphacoronavirus
+693996,Orthornavirae,0.01856886,Alphacoronavirus
+693996,Pisoniviricetes,0.01856886,Alphacoronavirus
+693996,Nidovirales,0.01856886,Alphacoronavirus
+1384461,Colacovirus,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Bat coronavirus CDPHE15,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Cornidovirineae,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Nidovirales,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Pisoniviricetes,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Pisuviricota,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Orthornavirae,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Riboviria,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Viruses,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Bat coronavirus CDPHE15/USA/2006,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Orthocoronavirinae,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Alphacoronavirus,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+1384461,Coronaviridae,0.014097710000000001,Bat coronavirus CDPHE15/USA/2006
+129951,Preplasmiviricota,0.00912977,Human mastadenovirus C
+129951,Human mastadenovirus C,0.00912977,Human mastadenovirus C
+129951,Bamfordvirae,0.00912977,Human mastadenovirus C
+129951,Varidnaviria,0.00912977,Human mastadenovirus C
+129951,Viruses,0.00912977,Human mastadenovirus C
+129951,Mastadenovirus,0.00912977,Human mastadenovirus C
+129951,Adenoviridae,0.00912977,Human mastadenovirus C
+129951,Rowavirales,0.00912977,Human mastadenovirus C
+129951,Tectiliviricetes,0.00912977,Human mastadenovirus C
+11676,Ortervirales,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Riboviria,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Revtraviricetes,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Retroviridae,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Orthoretrovirinae,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Lentivirus,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Human immunodeficiency virus 1,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Viruses,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Pararnavirae,0.0047617300000000005,Human immunodeficiency virus 1
+11676,Artverviricota,0.0047617300000000005,Human immunodeficiency virus 1
+1503289,Pisuviricota,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Myotacovirus,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Orthornavirae,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Riboviria,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Viruses,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,BtMr-AlphaCoV/SAX2011,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Myotis ricketti alphacoronavirus Sax-2011,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Alphacoronavirus,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Orthocoronavirinae,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Coronaviridae,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Nidovirales,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Pisoniviricetes,0.00470549,BtMr-AlphaCoV/SAX2011
+1503289,Cornidovirineae,0.00470549,BtMr-AlphaCoV/SAX2011
+2509505,Coronaviridae,0.00421806,Pedacovirus
+2509505,Riboviria,0.00421806,Pedacovirus
+2509505,Orthornavirae,0.00421806,Pedacovirus
+2509505,Pisuviricota,0.00421806,Pedacovirus
+2509505,Pisoniviricetes,0.00421806,Pedacovirus
+2509505,Nidovirales,0.00421806,Pedacovirus
+2509505,Cornidovirineae,0.00421806,Pedacovirus
+2509505,Pedacovirus,0.00421806,Pedacovirus
+2509505,Orthocoronavirinae,0.00421806,Pedacovirus
+2509505,Alphacoronavirus,0.00421806,Pedacovirus
+2509505,Viruses,0.00421806,Pedacovirus
+1503292,Pisoniviricetes,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Decacovirus,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Cornidovirineae,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Nidovirales,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Pisuviricota,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Orthornavirae,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Riboviria,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Viruses,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,BtRf-AlphaCoV/HuB2013,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Rhinolophus ferrumequinum alphacoronavirus HuB-2013,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Alphacoronavirus,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Orthocoronavirinae,0.00421806,BtRf-AlphaCoV/HuB2013
+1503292,Coronaviridae,0.00421806,BtRf-AlphaCoV/HuB2013
+11584,Polyploviricotina,0.00419932,Phlebovirus
+11584,Viruses,0.00419932,Phlebovirus
+11584,Phlebovirus,0.00419932,Phlebovirus
+11584,Phenuiviridae,0.00419932,Phlebovirus
+11584,Bunyavirales,0.00419932,Phlebovirus
+11584,Ellioviricetes,0.00419932,Phlebovirus
+11584,Orthornavirae,0.00419932,Phlebovirus
+11584,Negarnaviricota,0.00419932,Phlebovirus
+11584,Riboviria,0.00419932,Phlebovirus
+1920748,NL63-related bat coronavirus,0.00388062,NL63-related bat coronavirus
+1920748,Orthocoronavirinae,0.00388062,NL63-related bat coronavirus
+1920748,Orthornavirae,0.00388062,NL63-related bat coronavirus
+1920748,Pisoniviricetes,0.00388062,NL63-related bat coronavirus
+1920748,Nidovirales,0.00388062,NL63-related bat coronavirus
+1920748,Cornidovirineae,0.00388062,NL63-related bat coronavirus
+1920748,Coronaviridae,0.00388062,NL63-related bat coronavirus
+1920748,Alphacoronavirus,0.00388062,NL63-related bat coronavirus
+1920748,Setracovirus,0.00388062,NL63-related bat coronavirus
+1920748,NL63-related bat coronavirus strain BtKYNL63-9b,0.00388062,NL63-related bat coronavirus
+1920748,Viruses,0.00388062,NL63-related bat coronavirus
+1920748,Riboviria,0.00388062,NL63-related bat coronavirus
+1920748,Pisuviricota,0.00388062,NL63-related bat coronavirus
+2492658,Alphacoronavirus,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Orthornavirae,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Viruses,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,unclassified Nyctacovirus,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Riboviria,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Nyctacovirus,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Orthocoronavirinae,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Coronaviridae,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Cornidovirineae,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Nidovirales,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Pisoniviricetes,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+2492658,Pisuviricota,0.00333696,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015
+1503291,Orthornavirae,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Viruses,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,BtNv-AlphaCoV/SC2013,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Nyctalus velutinus alphacoronavirus SC-2013,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Nyctacovirus,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Alphacoronavirus,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Orthocoronavirinae,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Coronaviridae,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Cornidovirineae,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Nidovirales,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Pisoniviricetes,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Pisuviricota,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+1503291,Riboviria,0.0025683299999999997,BtNv-AlphaCoV/SC2013
+35269,Viruses,0.00240898,Woodchuck hepatitis virus
+35269,Hepadnaviridae,0.00240898,Woodchuck hepatitis virus
+35269,Blubervirales,0.00240898,Woodchuck hepatitis virus
+35269,Orthohepadnavirus,0.00240898,Woodchuck hepatitis virus
+35269,Woodchuck hepatitis virus,0.00240898,Woodchuck hepatitis virus
+35269,Riboviria,0.00240898,Woodchuck hepatitis virus
+35269,Pararnavirae,0.00240898,Woodchuck hepatitis virus
+35269,Artverviricota,0.00240898,Woodchuck hepatitis virus
+35269,Revtraviricetes,0.00240898,Woodchuck hepatitis virus
+2509503,Coronaviridae,0.00209029,Nyctacovirus
+2509503,Orthocoronavirinae,0.00209029,Nyctacovirus
+2509503,Cornidovirineae,0.00209029,Nyctacovirus
+2509503,Nidovirales,0.00209029,Nyctacovirus
+2509503,Pisoniviricetes,0.00209029,Nyctacovirus
+2509503,Pisuviricota,0.00209029,Nyctacovirus
+2509503,Orthornavirae,0.00209029,Nyctacovirus
+2509503,Riboviria,0.00209029,Nyctacovirus
+2509503,Nyctacovirus,0.00209029,Nyctacovirus
+2509503,Alphacoronavirus,0.00209029,Nyctacovirus
+2509503,Viruses,0.00209029,Nyctacovirus
+1241933,Orthocoronavirinae,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Alphacoronavirus,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Decacovirus,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Bat coronavirus HKU10,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Rousettus bat coronavirus HKU10,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Orthornavirae,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Viruses,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Riboviria,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Pisuviricota,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Nidovirales,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Pisoniviricetes,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Cornidovirineae,0.00208091,Rousettus bat coronavirus HKU10
+1241933,Coronaviridae,0.00208091,Rousettus bat coronavirus HKU10
+2509509,Coronaviridae,0.00202467,Rhinacovirus
+2509509,Orthocoronavirinae,0.00202467,Rhinacovirus
+2509509,Viruses,0.00202467,Rhinacovirus
+2509509,Orthornavirae,0.00202467,Rhinacovirus
+2509509,Pisuviricota,0.00202467,Rhinacovirus
+2509509,Pisoniviricetes,0.00202467,Rhinacovirus
+2509509,Nidovirales,0.00202467,Rhinacovirus
+2509509,Cornidovirineae,0.00202467,Rhinacovirus
+2509509,Alphacoronavirus,0.00202467,Rhinacovirus
+2509509,Rhinacovirus,0.00202467,Rhinacovirus
+2509509,Riboviria,0.00202467,Rhinacovirus
+10405,Orthohepadnavirus,0.00128417,Orthohepadnavirus
+10405,Blubervirales,0.00128417,Orthohepadnavirus
+10405,Viruses,0.00128417,Orthohepadnavirus
+10405,Pararnavirae,0.00128417,Orthohepadnavirus
+10405,Artverviricota,0.00128417,Orthohepadnavirus
+10405,Revtraviricetes,0.00128417,Orthohepadnavirus
+10405,Hepadnaviridae,0.00128417,Orthohepadnavirus
+10405,Riboviria,0.00128417,Orthohepadnavirus
+393767,Nidovirales,0.00126542,Bat coronavirus 1A
+393767,Pisuviricota,0.00126542,Bat coronavirus 1A
+393767,Orthornavirae,0.00126542,Bat coronavirus 1A
+393767,Pisoniviricetes,0.00126542,Bat coronavirus 1A
+393767,Cornidovirineae,0.00126542,Bat coronavirus 1A
+393767,Coronaviridae,0.00126542,Bat coronavirus 1A
+393767,Viruses,0.00126542,Bat coronavirus 1A
+393767,Orthocoronavirinae,0.00126542,Bat coronavirus 1A
+393767,Alphacoronavirus,0.00126542,Bat coronavirus 1A
+393767,Riboviria,0.00126542,Bat coronavirus 1A
+393767,Bat coronavirus 1A,0.00126542,Bat coronavirus 1A
+393767,Miniopterus bat coronavirus 1,0.00126542,Bat coronavirus 1A
+393767,Minunacovirus,0.00126542,Bat coronavirus 1A
+694001,Viruses,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Pisoniviricetes,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Riboviria,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Orthocoronavirinae,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Nidovirales,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Pisuviricota,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Orthornavirae,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Miniopterus bat coronavirus HKU8,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Minunacovirus,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Alphacoronavirus,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Coronaviridae,0.00117168,Miniopterus bat coronavirus HKU8
+694001,Cornidovirineae,0.00117168,Miniopterus bat coronavirus HKU8
+10509,Viruses,0.0007967499999999999,Mastadenovirus
+10509,Bamfordvirae,0.0007967499999999999,Mastadenovirus
+10509,Adenoviridae,0.0007967499999999999,Mastadenovirus
+10509,Preplasmiviricota,0.0007967499999999999,Mastadenovirus
+10509,Tectiliviricetes,0.0007967499999999999,Mastadenovirus
+10509,Rowavirales,0.0007967499999999999,Mastadenovirus
+10509,Mastadenovirus,0.0007967499999999999,Mastadenovirus
+10509,Varidnaviria,0.0007967499999999999,Mastadenovirus
+766791,Mink coronavirus strain WD1127,0.00075925,Mink coronavirus strain WD1127
+766791,Riboviria,0.00075925,Mink coronavirus strain WD1127
+766791,Cornidovirineae,0.00075925,Mink coronavirus strain WD1127
+766791,Coronaviridae,0.00075925,Mink coronavirus strain WD1127
+766791,Orthocoronavirinae,0.00075925,Mink coronavirus strain WD1127
+766791,Alphacoronavirus,0.00075925,Mink coronavirus strain WD1127
+766791,Minacovirus,0.00075925,Mink coronavirus strain WD1127
+766791,Mink coronavirus 1,0.00075925,Mink coronavirus strain WD1127
+766791,Viruses,0.00075925,Mink coronavirus strain WD1127
+766791,Orthornavirae,0.00075925,Mink coronavirus strain WD1127
+766791,Pisuviricota,0.00075925,Mink coronavirus strain WD1127
+766791,Pisoniviricetes,0.00075925,Mink coronavirus strain WD1127
+766791,Nidovirales,0.00075925,Mink coronavirus strain WD1127
+613,Proteobacteria,0.0006936399999999999,Serratia
+613,Gammaproteobacteria,0.0006936399999999999,Serratia
+613,Enterobacterales,0.0006936399999999999,Serratia
+613,Yersiniaceae,0.0006936399999999999,Serratia
+613,Serratia,0.0006936399999999999,Serratia
+613,cellular organisms,0.0006936399999999999,Serratia
+613,Bacteria,0.0006936399999999999,Serratia
+693997,Pisoniviricetes,0.00062802,Alphacoronavirus 1
+693997,Pisuviricota,0.00062802,Alphacoronavirus 1
+693997,Nidovirales,0.00062802,Alphacoronavirus 1
+693997,Cornidovirineae,0.00062802,Alphacoronavirus 1
+693997,Coronaviridae,0.00062802,Alphacoronavirus 1
+693997,Orthocoronavirinae,0.00062802,Alphacoronavirus 1
+693997,Alphacoronavirus 1,0.00062802,Alphacoronavirus 1
+693997,Alphacoronavirus,0.00062802,Alphacoronavirus 1
+693997,Tegacovirus,0.00062802,Alphacoronavirus 1
+693997,Viruses,0.00062802,Alphacoronavirus 1
+693997,Riboviria,0.00062802,Alphacoronavirus 1
+693997,Orthornavirae,0.00062802,Alphacoronavirus 1
+10780,Monodnaviria,0.00050617,Parvoviridae
+10780,Shotokuvirae,0.00050617,Parvoviridae
+10780,Cossaviricota,0.00050617,Parvoviridae
+10780,Piccovirales,0.00050617,Parvoviridae
+10780,Quintoviricetes,0.00050617,Parvoviridae
+10780,Viruses,0.00050617,Parvoviridae
+10780,Parvoviridae,0.00050617,Parvoviridae
+2509496,Coronaviridae,0.00048742,Minacovirus
+2509496,Riboviria,0.00048742,Minacovirus
+2509496,Cornidovirineae,0.00048742,Minacovirus
+2509496,Orthocoronavirinae,0.00048742,Minacovirus
+2509496,Alphacoronavirus,0.00048742,Minacovirus
+2509496,Minacovirus,0.00048742,Minacovirus
+2509496,Viruses,0.00048742,Minacovirus
+2509496,Pisoniviricetes,0.00048742,Minacovirus
+2509496,Orthornavirae,0.00048742,Minacovirus
+2509496,Pisuviricota,0.00048742,Minacovirus
+2509496,Nidovirales,0.00048742,Minacovirus
+1508224,Alphacoronavirus,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Luchacovirus,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Viruses,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Lucheng Rn rat coronavirus,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Orthocoronavirinae,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Riboviria,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Orthornavirae,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Pisuviricota,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Pisoniviricetes,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Nidovirales,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Cornidovirineae,0.00044054999999999995,Lucheng Rn rat coronavirus
+1508224,Coronaviridae,0.00044054999999999995,Lucheng Rn rat coronavirus
+59195,Coxiellaceae,0.00043118,Rickettsiella
+59195,Rickettsiella,0.00043118,Rickettsiella
+59195,Gammaproteobacteria,0.00043118,Rickettsiella
+59195,cellular organisms,0.00043118,Rickettsiella
+59195,Proteobacteria,0.00043118,Rickettsiella
+59195,Bacteria,0.00043118,Rickettsiella
+59195,Legionellales,0.00043118,Rickettsiella
+945962,unclassified Brevidensovirus,0.00038431,Mosquito densovirus BR/07
+945962,Quintoviricetes,0.00038431,Mosquito densovirus BR/07
+945962,Piccovirales,0.00038431,Mosquito densovirus BR/07
+945962,Parvoviridae,0.00038431,Mosquito densovirus BR/07
+945962,Densovirinae,0.00038431,Mosquito densovirus BR/07
+945962,Brevidensovirus,0.00038431,Mosquito densovirus BR/07
+945962,Cossaviricota,0.00038431,Mosquito densovirus BR/07
+945962,Monodnaviria,0.00038431,Mosquito densovirus BR/07
+945962,Mosquito densovirus BR/07,0.00038431,Mosquito densovirus BR/07
+945962,Viruses,0.00038431,Mosquito densovirus BR/07
+945962,Shotokuvirae,0.00038431,Mosquito densovirus BR/07
+11137,Human coronavirus 229E,0.00037494,Human coronavirus 229E
+11137,Riboviria,0.00037494,Human coronavirus 229E
+11137,Viruses,0.00037494,Human coronavirus 229E
+11137,Duvinacovirus,0.00037494,Human coronavirus 229E
+11137,Alphacoronavirus,0.00037494,Human coronavirus 229E
+11137,Pisuviricota,0.00037494,Human coronavirus 229E
+11137,Orthocoronavirinae,0.00037494,Human coronavirus 229E
+11137,Orthornavirae,0.00037494,Human coronavirus 229E
+11137,Pisoniviricetes,0.00037494,Human coronavirus 229E
+11137,Nidovirales,0.00037494,Human coronavirus 229E
+11137,Cornidovirineae,0.00037494,Human coronavirus 229E
+11137,Coronaviridae,0.00037494,Human coronavirus 229E
+572289,Pisuviricota,0.00030932,Munia coronavirus HKU13-3514
+572289,Pisoniviricetes,0.00030932,Munia coronavirus HKU13-3514
+572289,Nidovirales,0.00030932,Munia coronavirus HKU13-3514
+572289,Coronaviridae,0.00030932,Munia coronavirus HKU13-3514
+572289,Cornidovirineae,0.00030932,Munia coronavirus HKU13-3514
+572289,Riboviria,0.00030932,Munia coronavirus HKU13-3514
+572289,Orthocoronavirinae,0.00030932,Munia coronavirus HKU13-3514
+572289,Orthornavirae,0.00030932,Munia coronavirus HKU13-3514
+572289,Deltacoronavirus,0.00030932,Munia coronavirus HKU13-3514
+572289,Viruses,0.00030932,Munia coronavirus HKU13-3514
+572289,Munia coronavirus HKU13-3514,0.00030932,Munia coronavirus HKU13-3514
+572289,Munia coronavirus HKU13,0.00030932,Munia coronavirus HKU13-3514
+572289,Buldecovirus,0.00030932,Munia coronavirus HKU13-3514
+1264898,Viruses,0.00029058,Ferret coronavirus
+1264898,Ferret coronavirus,0.00029058,Ferret coronavirus
+1264898,Cornidovirineae,0.00029058,Ferret coronavirus
+1264898,Alphacoronavirus,0.00029058,Ferret coronavirus
+1264898,Riboviria,0.00029058,Ferret coronavirus
+1264898,Orthocoronavirinae,0.00029058,Ferret coronavirus
+1264898,Orthornavirae,0.00029058,Ferret coronavirus
+1264898,Pisuviricota,0.00029058,Ferret coronavirus
+1264898,Pisoniviricetes,0.00029058,Ferret coronavirus
+1264898,Nidovirales,0.00029058,Ferret coronavirus
+1264898,Minacovirus,0.00029058,Ferret coronavirus
+1264898,Coronaviridae,0.00029058,Ferret coronavirus
+2509497,Cornidovirineae,0.00029058,Minunacovirus
+2509497,Minunacovirus,0.00029058,Minunacovirus
+2509497,Riboviria,0.00029058,Minunacovirus
+2509497,Orthornavirae,0.00029058,Minunacovirus
+2509497,Pisuviricota,0.00029058,Minunacovirus
+2509497,Pisoniviricetes,0.00029058,Minunacovirus
+2509497,Nidovirales,0.00029058,Minunacovirus
+2509497,Coronaviridae,0.00029058,Minunacovirus
+2509497,Orthocoronavirinae,0.00029058,Minunacovirus
+2509497,Alphacoronavirus,0.00029058,Minunacovirus
+2509497,Viruses,0.00029058,Minunacovirus
+1159908,Andecovirus,0.0002812,Wigeon coronavirus HKU20
+1159908,Wigeon coronavirus HKU20,0.0002812,Wigeon coronavirus HKU20
+1159908,Pisuviricota,0.0002812,Wigeon coronavirus HKU20
+1159908,Nidovirales,0.0002812,Wigeon coronavirus HKU20
+1159908,Cornidovirineae,0.0002812,Wigeon coronavirus HKU20
+1159908,Coronaviridae,0.0002812,Wigeon coronavirus HKU20
+1159908,Orthocoronavirinae,0.0002812,Wigeon coronavirus HKU20
+1159908,Deltacoronavirus,0.0002812,Wigeon coronavirus HKU20
+1159908,Viruses,0.0002812,Wigeon coronavirus HKU20
+1159908,Riboviria,0.0002812,Wigeon coronavirus HKU20
+1159908,Orthornavirae,0.0002812,Wigeon coronavirus HKU20
+1159908,Pisoniviricetes,0.0002812,Wigeon coronavirus HKU20
+1159906,Pisoniviricetes,0.00025308,Sparrow coronavirus HKU17
+1159906,Riboviria,0.00025308,Sparrow coronavirus HKU17
+1159906,Orthornavirae,0.00025308,Sparrow coronavirus HKU17
+1159906,Pisuviricota,0.00025308,Sparrow coronavirus HKU17
+1159906,Cornidovirineae,0.00025308,Sparrow coronavirus HKU17
+1159906,Nidovirales,0.00025308,Sparrow coronavirus HKU17
+1159906,Sparrow coronavirus HKU17,0.00025308,Sparrow coronavirus HKU17
+1159906,Coronaviridae,0.00025308,Sparrow coronavirus HKU17
+1159906,Viruses,0.00025308,Sparrow coronavirus HKU17
+1159906,Deltacoronavirus,0.00025308,Sparrow coronavirus HKU17
+1159906,unclassified Buldecovirus,0.00025308,Sparrow coronavirus HKU17
+1159906,Buldecovirus,0.00025308,Sparrow coronavirus HKU17
+1159906,Orthocoronavirinae,0.00025308,Sparrow coronavirus HKU17
+1964806,unclassified Luchacovirus,0.00024371,Coronavirus AcCoV-JC34
+1964806,Viruses,0.00024371,Coronavirus AcCoV-JC34
+1964806,Orthornavirae,0.00024371,Coronavirus AcCoV-JC34
+1964806,Luchacovirus,0.00024371,Coronavirus AcCoV-JC34
+1964806,Alphacoronavirus,0.00024371,Coronavirus AcCoV-JC34
+1964806,Orthocoronavirinae,0.00024371,Coronavirus AcCoV-JC34
+1964806,Coronaviridae,0.00024371,Coronavirus AcCoV-JC34
+1964806,Cornidovirineae,0.00024371,Coronavirus AcCoV-JC34
+1964806,Nidovirales,0.00024371,Coronavirus AcCoV-JC34
+1964806,Pisoniviricetes,0.00024371,Coronavirus AcCoV-JC34
+1964806,Pisuviricota,0.00024371,Coronavirus AcCoV-JC34
+1964806,Riboviria,0.00024371,Coronavirus AcCoV-JC34
+1964806,Coronavirus AcCoV-JC34,0.00024371,Coronavirus AcCoV-JC34
+2509479,Nidovirales,0.00022496,Decacovirus
+2509479,Viruses,0.00022496,Decacovirus
+2509479,Pisoniviricetes,0.00022496,Decacovirus
+2509479,Pisuviricota,0.00022496,Decacovirus
+2509479,Orthornavirae,0.00022496,Decacovirus
+2509479,Riboviria,0.00022496,Decacovirus
+2509479,Orthocoronavirinae,0.00022496,Decacovirus
+2509479,Decacovirus,0.00022496,Decacovirus
+2509479,Alphacoronavirus,0.00022496,Decacovirus
+2509479,Coronaviridae,0.00022496,Decacovirus
+2509479,Cornidovirineae,0.00022496,Decacovirus
+1503293,Alphacoronavirus,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Orthornavirae,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Riboviria,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Viruses,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,BtRf-AlphaCoV/YN2012,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,unclassified Rhinacovirus,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Rhinacovirus,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Orthocoronavirinae,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Coronaviridae,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Cornidovirineae,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Nidovirales,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Pisoniviricetes,0.00021559,BtRf-AlphaCoV/YN2012
+1503293,Pisuviricota,0.00021559,BtRf-AlphaCoV/YN2012
+10407,Pararnavirae,0.00019684,Hepatitis B virus
+10407,Blubervirales,0.00019684,Hepatitis B virus
+10407,Hepadnaviridae,0.00019684,Hepatitis B virus
+10407,Orthohepadnavirus,0.00019684,Hepatitis B virus
+10407,Hepatitis B virus,0.00019684,Hepatitis B virus
+10407,Viruses,0.00019684,Hepatitis B virus
+10407,Riboviria,0.00019684,Hepatitis B virus
+10407,Artverviricota,0.00019684,Hepatitis B virus
+10407,Revtraviricetes,0.00019684,Hepatitis B virus
+694015,Cegacovirus,0.0001781,Beluga whale coronavirus SW1
+694015,Gammacoronavirus,0.0001781,Beluga whale coronavirus SW1
+694015,Cornidovirineae,0.0001781,Beluga whale coronavirus SW1
+694015,Nidovirales,0.0001781,Beluga whale coronavirus SW1
+694015,Pisoniviricetes,0.0001781,Beluga whale coronavirus SW1
+694015,Pisuviricota,0.0001781,Beluga whale coronavirus SW1
+694015,Orthornavirae,0.0001781,Beluga whale coronavirus SW1
+694015,Riboviria,0.0001781,Beluga whale coronavirus SW1
+694015,Viruses,0.0001781,Beluga whale coronavirus SW1
+694015,Beluga whale coronavirus SW1,0.0001781,Beluga whale coronavirus SW1
+694015,Orthocoronavirinae,0.0001781,Beluga whale coronavirus SW1
+694015,Coronaviridae,0.0001781,Beluga whale coronavirus SW1
+2059380,Pokkesviricetes,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,unclassified Avipoxvirus,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Flamingopox virus FGPVKD09,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Viruses,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Varidnaviria,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Bamfordvirae,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Nucleocytoviricota,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Avipoxvirus,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Chitovirales,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Poxviridae,0.00015935000000000002,Flamingopox virus FGPVKD09
+2059380,Chordopoxvirinae,0.00015935000000000002,Flamingopox virus FGPVKD09
+2509512,Nidovirales,0.00014998,Setracovirus
+2509512,Cornidovirineae,0.00014998,Setracovirus
+2509512,Orthornavirae,0.00014998,Setracovirus
+2509512,Riboviria,0.00014998,Setracovirus
+2509512,Viruses,0.00014998,Setracovirus
+2509512,Setracovirus,0.00014998,Setracovirus
+2509512,Alphacoronavirus,0.00014998,Setracovirus
+2509512,Coronaviridae,0.00014998,Setracovirus
+2509512,Orthocoronavirinae,0.00014998,Setracovirus
+2509512,Pisoniviricetes,0.00014998,Setracovirus
+2509512,Pisuviricota,0.00014998,Setracovirus
+1776109,Pisoniviricetes,0.00014998,Goose dicistrovirus
+1776109,Riboviria,0.00014998,Goose dicistrovirus
+1776109,Viruses,0.00014998,Goose dicistrovirus
+1776109,Goose dicistrovirus,0.00014998,Goose dicistrovirus
+1776109,unclassified Dicistroviridae,0.00014998,Goose dicistrovirus
+1776109,Dicistroviridae,0.00014998,Goose dicistrovirus
+1776109,Picornavirales,0.00014998,Goose dicistrovirus
+1776109,Pisuviricota,0.00014998,Goose dicistrovirus
+1776109,Orthornavirae,0.00014998,Goose dicistrovirus
+2501931,Orthornavirae,0.00012186,Orthocoronavirinae
+2501931,Pisoniviricetes,0.00012186,Orthocoronavirinae
+2501931,Nidovirales,0.00012186,Orthocoronavirinae
+2501931,Cornidovirineae,0.00012186,Orthocoronavirinae
+2501931,Coronaviridae,0.00012186,Orthocoronavirinae
+2501931,Orthocoronavirinae,0.00012186,Orthocoronavirinae
+2501931,Viruses,0.00012186,Orthocoronavirinae
+2501931,Riboviria,0.00012186,Orthocoronavirinae
+2501931,Pisuviricota,0.00012186,Orthocoronavirinae
+10406,Ground squirrel hepatitis virus,0.00012186,Ground squirrel hepatitis virus
+10406,Orthohepadnavirus,0.00012186,Ground squirrel hepatitis virus
+10406,Hepadnaviridae,0.00012186,Ground squirrel hepatitis virus
+10406,Blubervirales,0.00012186,Ground squirrel hepatitis virus
+10406,Revtraviricetes,0.00012186,Ground squirrel hepatitis virus
+10406,Artverviricota,0.00012186,Ground squirrel hepatitis virus
+10406,Pararnavirae,0.00012186,Ground squirrel hepatitis virus
+10406,Riboviria,0.00012186,Ground squirrel hepatitis virus
+10406,Viruses,0.00012186,Ground squirrel hepatitis virus
+1766554,Viruses,0.00011248,Swine enteric coronavirus
+1766554,Nidovirales,0.00011248,Swine enteric coronavirus
+1766554,Pisoniviricetes,0.00011248,Swine enteric coronavirus
+1766554,Pisuviricota,0.00011248,Swine enteric coronavirus
+1766554,Orthornavirae,0.00011248,Swine enteric coronavirus
+1766554,Riboviria,0.00011248,Swine enteric coronavirus
+1766554,Orthocoronavirinae,0.00011248,Swine enteric coronavirus
+1766554,Swine enteric coronavirus,0.00011248,Swine enteric coronavirus
+1766554,Alphacoronavirus 1,0.00011248,Swine enteric coronavirus
+1766554,Tegacovirus,0.00011248,Swine enteric coronavirus
+1766554,Alphacoronavirus,0.00011248,Swine enteric coronavirus
+1766554,Coronaviridae,0.00011248,Swine enteric coronavirus
+1766554,Cornidovirineae,0.00011248,Swine enteric coronavirus
+1590370,Orthocoronavirinae,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Viruses,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Betacoronavirus HKU24,0.00010311000000000001,Betacoronavirus HKU24
+1590370,China Rattus coronavirus HKU24,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Embecovirus,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Betacoronavirus,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Pisuviricota,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Coronaviridae,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Cornidovirineae,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Riboviria,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Orthornavirae,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Pisoniviricetes,0.00010311000000000001,Betacoronavirus HKU24
+1590370,Nidovirales,0.00010311000000000001,Betacoronavirus HKU24
+11135,Coronaviridae,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Cornidovirineae,0.00010311000000000001,Feline infectious peritonitis virus
+1048854,Polyploviricotina,0.00010311000000000001,Munguba virus
+1048854,Bunyavirales,0.00010311000000000001,Munguba virus
+1048854,Phenuiviridae,0.00010311000000000001,Munguba virus
+1048854,Phlebovirus,0.00010311000000000001,Munguba virus
+1048854,Munguba phlebovirus,0.00010311000000000001,Munguba virus
+1048854,Munguba virus,0.00010311000000000001,Munguba virus
+1048854,Viruses,0.00010311000000000001,Munguba virus
+1048854,Riboviria,0.00010311000000000001,Munguba virus
+1048854,Orthornavirae,0.00010311000000000001,Munguba virus
+1048854,Negarnaviricota,0.00010311000000000001,Munguba virus
+1048854,Ellioviricetes,0.00010311000000000001,Munguba virus
+11135,Feline infectious peritonitis virus,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Alphacoronavirus,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Alphacoronavirus 1,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Feline coronavirus,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Viruses,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Riboviria,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Orthornavirae,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Pisuviricota,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Pisoniviricetes,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Nidovirales,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Orthocoronavirinae,0.00010311000000000001,Feline infectious peritonitis virus
+11135,Tegacovirus,0.00010311000000000001,Feline infectious peritonitis virus
+1699095,Coronaviridae,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Duvinacovirus,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Alphacoronavirus,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Orthocoronavirinae,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Pisuviricota,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Human coronavirus 229E,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Nidovirales,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Pisoniviricetes,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Cornidovirineae,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Orthornavirae,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Camel alphacoronavirus,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Viruses,8.436000000000001e-05,Camel alphacoronavirus
+1699095,Riboviria,8.436000000000001e-05,Camel alphacoronavirus
+40122,Iteradensovirus,7.499e-05,Iteradensovirus
+40122,Piccovirales,7.499e-05,Iteradensovirus
+40122,Quintoviricetes,7.499e-05,Iteradensovirus
+40122,Cossaviricota,7.499e-05,Iteradensovirus
+40122,Shotokuvirae,7.499e-05,Iteradensovirus
+40122,Monodnaviria,7.499e-05,Iteradensovirus
+40122,Densovirinae,7.499e-05,Iteradensovirus
+40122,Viruses,7.499e-05,Iteradensovirus
+40122,Parvoviridae,7.499e-05,Iteradensovirus
+277944,Coronaviridae,6.561e-05,Human coronavirus NL63
+277944,Orthocoronavirinae,6.561e-05,Human coronavirus NL63
+277944,Alphacoronavirus,6.561e-05,Human coronavirus NL63
+277944,Riboviria,6.561e-05,Human coronavirus NL63
+277944,Human coronavirus NL63,6.561e-05,Human coronavirus NL63
+277944,Viruses,6.561e-05,Human coronavirus NL63
+277944,Orthornavirae,6.561e-05,Human coronavirus NL63
+277944,Pisuviricota,6.561e-05,Human coronavirus NL63
+277944,Pisoniviricetes,6.561e-05,Human coronavirus NL63
+277944,Nidovirales,6.561e-05,Human coronavirus NL63
+277944,Cornidovirineae,6.561e-05,Human coronavirus NL63
+277944,Setracovirus,6.561e-05,Human coronavirus NL63
+570,Klebsiella/Raoultella group,6.561e-05,Klebsiella
+570,Klebsiella,6.561e-05,Klebsiella
+570,cellular organisms,6.561e-05,Klebsiella
+570,Bacteria,6.561e-05,Klebsiella
+570,Proteobacteria,6.561e-05,Klebsiella
+570,Gammaproteobacteria,6.561e-05,Klebsiella
+570,Enterobacterales,6.561e-05,Klebsiella
+570,Enterobacteriaceae,6.561e-05,Klebsiella
+2304514,Arfiviricetes,6.561e-05,Culex circovirus-like virus
+2304514,Cirlivirales,6.561e-05,Culex circovirus-like virus
+2304514,Circoviridae,6.561e-05,Culex circovirus-like virus
+2304514,Circovirus,6.561e-05,Culex circovirus-like virus
+2304514,Mosquito associated circovirus 1,6.561e-05,Culex circovirus-like virus
+2304514,Viruses,6.561e-05,Culex circovirus-like virus
+2304514,Monodnaviria,6.561e-05,Culex circovirus-like virus
+2304514,Shotokuvirae,6.561e-05,Culex circovirus-like virus
+2304514,Cressdnaviricota,6.561e-05,Culex circovirus-like virus
+2304514,Culex circovirus-like virus,6.561e-05,Culex circovirus-like virus
+170621,Riboviria,4.6870000000000004e-05,Perina nuda virus
+170621,Orthornavirae,4.6870000000000004e-05,Perina nuda virus
+170621,Pisuviricota,4.6870000000000004e-05,Perina nuda virus
+170621,Pisoniviricetes,4.6870000000000004e-05,Perina nuda virus
+170621,Picornavirales,4.6870000000000004e-05,Perina nuda virus
+170621,Iflaviridae,4.6870000000000004e-05,Perina nuda virus
+170621,Iflavirus,4.6870000000000004e-05,Perina nuda virus
+170621,Perina nuda virus,4.6870000000000004e-05,Perina nuda virus
+170621,Viruses,4.6870000000000004e-05,Perina nuda virus
+1006585,Negarnaviricota,4.6870000000000004e-05,Durania virus
+1006585,Ellioviricetes,4.6870000000000004e-05,Durania virus
+1006585,Bunyavirales,4.6870000000000004e-05,Durania virus
+1006585,Phenuiviridae,4.6870000000000004e-05,Durania virus
+1006585,Phlebovirus,4.6870000000000004e-05,Durania virus
+1006585,Durania phlebovirus,4.6870000000000004e-05,Durania virus
+1006585,Durania virus,4.6870000000000004e-05,Durania virus
+1006585,Polyploviricotina,4.6870000000000004e-05,Durania virus
+1006585,Orthornavirae,4.6870000000000004e-05,Durania virus
+1006585,Viruses,4.6870000000000004e-05,Durania virus
+1006585,Riboviria,4.6870000000000004e-05,Durania virus
+10359,Herpesvirales,3.749e-05,Human betaherpesvirus 5
+10359,Cytomegalovirus,3.749e-05,Human betaherpesvirus 5
+10359,Herviviricetes,3.749e-05,Human betaherpesvirus 5
+10359,Peploviricota,3.749e-05,Human betaherpesvirus 5
+10359,Heunggongvirae,3.749e-05,Human betaherpesvirus 5
+10359,Duplodnaviria,3.749e-05,Human betaherpesvirus 5
+10359,Viruses,3.749e-05,Human betaherpesvirus 5
+10359,Herpesviridae,3.749e-05,Human betaherpesvirus 5
+10359,Betaherpesvirinae,3.749e-05,Human betaherpesvirus 5
+10359,Human betaherpesvirus 5,3.749e-05,Human betaherpesvirus 5
+1923206,unclassified RNA viruses ShiM-2016,3.749e-05,Hubei sobemo-like virus 20
+1923206,Hubei sobemo-like virus 20,3.749e-05,Hubei sobemo-like virus 20
+232799,Iflaviridae,3.749e-05,Iflavirus
+232799,Picornavirales,3.749e-05,Iflavirus
+232799,Pisoniviricetes,3.749e-05,Iflavirus
+232799,Pisuviricota,3.749e-05,Iflavirus
+232799,Orthornavirae,3.749e-05,Iflavirus
+232799,Riboviria,3.749e-05,Iflavirus
+232799,Viruses,3.749e-05,Iflavirus
+232799,Iflavirus,3.749e-05,Iflavirus
+1923206,Viruses,3.749e-05,Hubei sobemo-like virus 20
+1923206,Riboviria,3.749e-05,Hubei sobemo-like virus 20
+1923206,unclassified Riboviria,3.749e-05,Hubei sobemo-like virus 20
+43668,Brachybacterium,2.812e-05,Brachybacterium
+43668,cellular organisms,2.812e-05,Brachybacterium
+39724,Cressdnaviricota,2.812e-05,Circoviridae
+39724,Arfiviricetes,2.812e-05,Circoviridae
+39724,Cirlivirales,2.812e-05,Circoviridae
+39724,Circoviridae,2.812e-05,Circoviridae
+39724,Viruses,2.812e-05,Circoviridae
+43668,Bacteria,2.812e-05,Brachybacterium
+43668,Dermabacteraceae,2.812e-05,Brachybacterium
+43668,Terrabacteria group,2.812e-05,Brachybacterium
+43668,Actinobacteria,2.812e-05,Brachybacterium
+43668,Actinomycetia,2.812e-05,Brachybacterium
+39724,Monodnaviria,2.812e-05,Circoviridae
+43668,Micrococcales,2.812e-05,Brachybacterium
+39724,Shotokuvirae,2.812e-05,Circoviridae
+11807,Ortervirales,1.875e-05,Harvey murine sarcoma virus
+1654355,Pisoniviricetes,1.875e-05,Kilifi Virus
+1654355,Pisuviricota,1.875e-05,Kilifi Virus
+11807,Harvey murine sarcoma virus,1.875e-05,Harvey murine sarcoma virus
+11807,Gammaretrovirus,1.875e-05,Harvey murine sarcoma virus
+11807,Orthoretrovirinae,1.875e-05,Harvey murine sarcoma virus
+11807,Retroviridae,1.875e-05,Harvey murine sarcoma virus
+11807,Artverviricota,1.875e-05,Harvey murine sarcoma virus
+11807,Revtraviricetes,1.875e-05,Harvey murine sarcoma virus
+1654355,unclassified Picornavirales,1.875e-05,Kilifi Virus
+11807,Pararnavirae,1.875e-05,Harvey murine sarcoma virus
+11807,Riboviria,1.875e-05,Harvey murine sarcoma virus
+11807,Viruses,1.875e-05,Harvey murine sarcoma virus
+1654355,Picornavirales,1.875e-05,Kilifi Virus
+11118,Cornidovirineae,1.875e-05,Coronaviridae
+11118,Coronaviridae,1.875e-05,Coronaviridae
+1350,cellular organisms,1.875e-05,Enterococcus
+11118,Nidovirales,1.875e-05,Coronaviridae
+11118,Pisoniviricetes,1.875e-05,Coronaviridae
+11118,Pisuviricota,1.875e-05,Coronaviridae
+11118,Orthornavirae,1.875e-05,Coronaviridae
+11118,Riboviria,1.875e-05,Coronaviridae
+11118,Viruses,1.875e-05,Coronaviridae
+1654355,Kilifi Virus,1.875e-05,Kilifi Virus
+1350,Bacteria,1.875e-05,Enterococcus
+1654355,Viruses,1.875e-05,Kilifi Virus
+1350,Terrabacteria group,1.875e-05,Enterococcus
+1654355,Orthornavirae,1.875e-05,Kilifi Virus
+1654355,Riboviria,1.875e-05,Kilifi Virus
+1485,cellular organisms,1.875e-05,Clostridium
+1485,Clostridia,1.875e-05,Clostridium
+1350,Firmicutes,1.875e-05,Enterococcus
+1350,Bacilli,1.875e-05,Enterococcus
+1350,Lactobacillales,1.875e-05,Enterococcus
+1350,Enterococcaceae,1.875e-05,Enterococcus
+1350,Enterococcus,1.875e-05,Enterococcus
+1485,Clostridiaceae,1.875e-05,Clostridium
+1485,Eubacteriales,1.875e-05,Clostridium
+1485,Clostridium,1.875e-05,Clostridium
+1485,Firmicutes,1.875e-05,Clostridium
+1485,Terrabacteria group,1.875e-05,Clostridium
+1485,Bacteria,1.875e-05,Clostridium
+129875,Tectiliviricetes,9.37e-06,Human mastadenovirus A
+48075,Bacteria,9.37e-06,Marinobacterium
+129875,Adenoviridae,9.37e-06,Human mastadenovirus A
+129875,Mastadenovirus,9.37e-06,Human mastadenovirus A
+129875,Human mastadenovirus A,9.37e-06,Human mastadenovirus A
+48075,cellular organisms,9.37e-06,Marinobacterium
+129875,Preplasmiviricota,9.37e-06,Human mastadenovirus A
+129875,Bamfordvirae,9.37e-06,Human mastadenovirus A
+129875,Varidnaviria,9.37e-06,Human mastadenovirus A
+129875,Viruses,9.37e-06,Human mastadenovirus A
+1926500,Ambe virus,9.37e-06,Ambe virus
+129875,Rowavirales,9.37e-06,Human mastadenovirus A
+2049933,Orthohepadnavirus,9.37e-06,Pomona bat hepatitis B virus
+48075,Proteobacteria,9.37e-06,Marinobacterium
+1926501,Negarnaviricota,9.37e-06,Tapara virus
+2049933,Riboviria,9.37e-06,Pomona bat hepatitis B virus
+2049933,Pararnavirae,9.37e-06,Pomona bat hepatitis B virus
+2049933,Artverviricota,9.37e-06,Pomona bat hepatitis B virus
+2049933,Revtraviricetes,9.37e-06,Pomona bat hepatitis B virus
+2049933,Blubervirales,9.37e-06,Pomona bat hepatitis B virus
+2049933,Hepadnaviridae,9.37e-06,Pomona bat hepatitis B virus
+1926500,Phlebovirus,9.37e-06,Ambe virus
+2049933,Pomona bat hepatitis B virus,9.37e-06,Pomona bat hepatitis B virus
+1926501,Viruses,9.37e-06,Tapara virus
+1926501,Riboviria,9.37e-06,Tapara virus
+1926501,Orthornavirae,9.37e-06,Tapara virus
+1926501,Polyploviricotina,9.37e-06,Tapara virus
+48075,Gammaproteobacteria,9.37e-06,Marinobacterium
+1926501,Ellioviricetes,9.37e-06,Tapara virus
+1926501,Bunyavirales,9.37e-06,Tapara virus
+1926501,Phenuiviridae,9.37e-06,Tapara virus
+1926501,Phlebovirus,9.37e-06,Tapara virus
+1926501,Tapara phlebovirus,9.37e-06,Tapara virus
+1926501,Tapara virus,9.37e-06,Tapara virus
+92521,Viruses,9.37e-06,Oryctes rhinoceros nudivirus
+92521,Naldaviricetes,9.37e-06,Oryctes rhinoceros nudivirus
+92521,Lefavirales,9.37e-06,Oryctes rhinoceros nudivirus
+92521,Nudiviridae,9.37e-06,Oryctes rhinoceros nudivirus
+92521,Alphanudivirus,9.37e-06,Oryctes rhinoceros nudivirus
+2049933,Viruses,9.37e-06,Pomona bat hepatitis B virus
+2163996,Capuchin monkey hepatitis B virus,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Orthohepadnavirus,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Hepadnaviridae,9.37e-06,Capuchin monkey hepatitis B virus
+48075,Oceanospirillales,9.37e-06,Marinobacterium
+48075,Oceanospirillaceae,9.37e-06,Marinobacterium
+48075,Marinobacterium,9.37e-06,Marinobacterium
+286,Pseudomonas,9.37e-06,Pseudomonas
+286,Pseudomonadaceae,9.37e-06,Pseudomonas
+286,Pseudomonadales,9.37e-06,Pseudomonas
+286,Gammaproteobacteria,9.37e-06,Pseudomonas
+286,Proteobacteria,9.37e-06,Pseudomonas
+286,Bacteria,9.37e-06,Pseudomonas
+286,cellular organisms,9.37e-06,Pseudomonas
+374,Bradyrhizobium,9.37e-06,Bradyrhizobium
+374,Bradyrhizobiaceae,9.37e-06,Bradyrhizobium
+374,Hyphomicrobiales,9.37e-06,Bradyrhizobium
+374,Alphaproteobacteria,9.37e-06,Bradyrhizobium
+374,Proteobacteria,9.37e-06,Bradyrhizobium
+374,Bacteria,9.37e-06,Bradyrhizobium
+374,cellular organisms,9.37e-06,Bradyrhizobium
+2163996,Viruses,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Riboviria,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Pararnavirae,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Artverviricota,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Revtraviricetes,9.37e-06,Capuchin monkey hepatitis B virus
+2163996,Blubervirales,9.37e-06,Capuchin monkey hepatitis B virus
+1926500,Ambe phlebovirus,9.37e-06,Ambe virus
+33882,cellular organisms,9.37e-06,Microbacterium
+1926500,Phenuiviridae,9.37e-06,Ambe virus
+629737,Ellioviricetes,9.37e-06,Turuna virus
+1469956,Cossaviricota,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Quintoviricetes,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Piccovirales,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Parvoviridae,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Densovirinae,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Iteradensovirus,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,unclassified Iteravirus,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Danaus plexippus plexippus iteravirus,9.37e-06,Danaus plexippus plexippus iteravirus
+629737,Viruses,9.37e-06,Turuna virus
+629737,Riboviria,9.37e-06,Turuna virus
+629737,Orthornavirae,9.37e-06,Turuna virus
+629737,Negarnaviricota,9.37e-06,Turuna virus
+629737,Polyploviricotina,9.37e-06,Turuna virus
+629737,Bunyavirales,9.37e-06,Turuna virus
+2079134,Nucleocytoviricota,9.37e-06,Dishui lake phycodnavirus 1
+629737,Phenuiviridae,9.37e-06,Turuna virus
+629737,Phlebovirus,9.37e-06,Turuna virus
+629737,Turuna phlebovirus,9.37e-06,Turuna virus
+629737,Turuna virus,9.37e-06,Turuna virus
+547,cellular organisms,9.37e-06,Enterobacter
+547,Bacteria,9.37e-06,Enterobacter
+547,Proteobacteria,9.37e-06,Enterobacter
+547,Gammaproteobacteria,9.37e-06,Enterobacter
+547,Enterobacterales,9.37e-06,Enterobacter
+547,Enterobacteriaceae,9.37e-06,Enterobacter
+547,Enterobacter,9.37e-06,Enterobacter
+2079134,Viruses,9.37e-06,Dishui lake phycodnavirus 1
+2079134,Varidnaviria,9.37e-06,Dishui lake phycodnavirus 1
+1469956,Shotokuvirae,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Monodnaviria,9.37e-06,Danaus plexippus plexippus iteravirus
+1469956,Viruses,9.37e-06,Danaus plexippus plexippus iteravirus
+22,Shewanella,9.37e-06,Shewanella
+11867,Viruses,9.37e-06,Avian myelocytomatosis virus
+11867,Riboviria,9.37e-06,Avian myelocytomatosis virus
+11867,Pararnavirae,9.37e-06,Avian myelocytomatosis virus
+11867,Artverviricota,9.37e-06,Avian myelocytomatosis virus
+11867,Revtraviricetes,9.37e-06,Avian myelocytomatosis virus
+11867,Ortervirales,9.37e-06,Avian myelocytomatosis virus
+11867,Retroviridae,9.37e-06,Avian myelocytomatosis virus
+11867,Orthoretrovirinae,9.37e-06,Avian myelocytomatosis virus
+11867,Alpharetrovirus,9.37e-06,Avian myelocytomatosis virus
+11867,unclassified Alpharetrovirus,9.37e-06,Avian myelocytomatosis virus
+11867,Avian myelocytomatosis virus,9.37e-06,Avian myelocytomatosis virus
+44088,Canarypox virus,9.37e-06,Canarypox virus
+44088,Avipoxvirus,9.37e-06,Canarypox virus
+44088,Chordopoxvirinae,9.37e-06,Canarypox virus
+44088,Poxviridae,9.37e-06,Canarypox virus
+44088,Chitovirales,9.37e-06,Canarypox virus
+44088,Pokkesviricetes,9.37e-06,Canarypox virus
+44088,Nucleocytoviricota,9.37e-06,Canarypox virus
+44088,Bamfordvirae,9.37e-06,Canarypox virus
+44088,Varidnaviria,9.37e-06,Canarypox virus
+44088,Viruses,9.37e-06,Canarypox virus
+22,cellular organisms,9.37e-06,Shewanella
+22,Bacteria,9.37e-06,Shewanella
+22,Proteobacteria,9.37e-06,Shewanella
+22,Gammaproteobacteria,9.37e-06,Shewanella
+22,Alteromonadales,9.37e-06,Shewanella
+22,Shewanellaceae,9.37e-06,Shewanella
+2079134,Bamfordvirae,9.37e-06,Dishui lake phycodnavirus 1
+2079134,Megaviricetes,9.37e-06,Dishui lake phycodnavirus 1
+1926500,Bunyavirales,9.37e-06,Ambe virus
+1385427,Betacoronavirus,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+33882,Actinomycetia,9.37e-06,Microbacterium
+33882,Micrococcales,9.37e-06,Microbacterium
+33882,Microbacteriaceae,9.37e-06,Microbacterium
+33882,Microbacterium,9.37e-06,Microbacterium
+1385427,Viruses,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Riboviria,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Orthornavirae,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Pisuviricota,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Pisoniviricetes,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Nidovirales,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Cornidovirineae,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Coronaviridae,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Orthocoronavirinae,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Merbecovirus,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+2079134,Algavirales,9.37e-06,Dishui lake phycodnavirus 1
+1385427,Hedgehog coronavirus 1,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1385427,Betacoronavirus Erinaceus/VMC/DEU/2012,9.37e-06,Betacoronavirus Erinaceus/VMC/DEU/2012
+1922624,Viruses,9.37e-06,Beihai picorna-like virus 77
+1922624,Riboviria,9.37e-06,Beihai picorna-like virus 77
+1922624,unclassified Riboviria,9.37e-06,Beihai picorna-like virus 77
+1922624,unclassified RNA viruses ShiM-2016,9.37e-06,Beihai picorna-like virus 77
+1922624,Beihai picorna-like virus 77,9.37e-06,Beihai picorna-like virus 77
+1926500,Viruses,9.37e-06,Ambe virus
+1926500,Riboviria,9.37e-06,Ambe virus
+1926500,Orthornavirae,9.37e-06,Ambe virus
+1926500,Negarnaviricota,9.37e-06,Ambe virus
+1926500,Polyploviricotina,9.37e-06,Ambe virus
+1926500,Ellioviricetes,9.37e-06,Ambe virus
+33882,Actinobacteria,9.37e-06,Microbacterium
+33882,Terrabacteria group,9.37e-06,Microbacterium
+33882,Bacteria,9.37e-06,Microbacterium
+1922873,Hubei diptera virus 12,9.37e-06,Hubei diptera virus 12
+2079134,Phycodnaviridae,9.37e-06,Dishui lake phycodnavirus 1
+2079134,Prasinovirus,9.37e-06,Dishui lake phycodnavirus 1
+2079134,unclassified Prasinovirus,9.37e-06,Dishui lake phycodnavirus 1
+2079134,Dishui lake phycodnavirus 1,9.37e-06,Dishui lake phycodnavirus 1
+28285,Viruses,9.37e-06,Human adenovirus 5
+28285,Varidnaviria,9.37e-06,Human adenovirus 5
+28285,Bamfordvirae,9.37e-06,Human adenovirus 5
+28285,Preplasmiviricota,9.37e-06,Human adenovirus 5
+28285,Tectiliviricetes,9.37e-06,Human adenovirus 5
+28285,Rowavirales,9.37e-06,Human adenovirus 5
+28285,Adenoviridae,9.37e-06,Human adenovirus 5
+28285,Mastadenovirus,9.37e-06,Human adenovirus 5
+28285,Human mastadenovirus C,9.37e-06,Human adenovirus 5
+28285,Human adenovirus 5,9.37e-06,Human adenovirus 5
+129950,Viruses,9.37e-06,Bovine mastadenovirus B
+129950,Varidnaviria,9.37e-06,Bovine mastadenovirus B
+129950,Bamfordvirae,9.37e-06,Bovine mastadenovirus B
+129950,Preplasmiviricota,9.37e-06,Bovine mastadenovirus B
+129950,Tectiliviricetes,9.37e-06,Bovine mastadenovirus B
+129950,Rowavirales,9.37e-06,Bovine mastadenovirus B
+129950,Adenoviridae,9.37e-06,Bovine mastadenovirus B
+129950,Mastadenovirus,9.37e-06,Bovine mastadenovirus B
+129950,Bovine mastadenovirus B,9.37e-06,Bovine mastadenovirus B
+1922873,Viruses,9.37e-06,Hubei diptera virus 12
+1922873,Riboviria,9.37e-06,Hubei diptera virus 12
+1922873,unclassified Riboviria,9.37e-06,Hubei diptera virus 12
+1922873,unclassified RNA viruses ShiM-2016,9.37e-06,Hubei diptera virus 12
+92521,Oryctes rhinoceros nudivirus,9.37e-06,Oryctes rhinoceros nudivirus

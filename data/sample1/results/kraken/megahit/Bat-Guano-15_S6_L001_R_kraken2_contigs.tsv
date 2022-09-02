@@ -1,0 +1,98 @@
+ 17.65	9	9	U	0	unclassified
+ 82.35	42	2	R	1	root
+ 45.10	23	0	R1	131567	  cellular organisms
+ 27.45	14	0	D	2759	    Eukaryota
+ 27.45	14	0	D1	33154	      Opisthokonta
+ 27.45	14	0	K	33208	        Metazoa
+ 27.45	14	0	K1	6072	          Eumetazoa
+ 27.45	14	0	K2	33213	            Bilateria
+ 27.45	14	0	K3	33511	              Deuterostomia
+ 27.45	14	0	P	7711	                Chordata
+ 27.45	14	0	P1	89593	                  Craniata
+ 27.45	14	0	P2	7742	                    Vertebrata
+ 27.45	14	0	P3	7776	                      Gnathostomata
+ 27.45	14	0	P4	117570	                        Teleostomi
+ 27.45	14	0	P5	117571	                          Euteleostomi
+ 27.45	14	0	P6	8287	                            Sarcopterygii
+ 27.45	14	0	P7	1338369	                              Dipnotetrapodomorpha
+ 27.45	14	0	P8	32523	                                Tetrapoda
+ 27.45	14	0	P9	32524	                                  Amniota
+ 27.45	14	0	C	40674	                                    Mammalia
+ 27.45	14	0	C1	32525	                                      Theria
+ 27.45	14	0	C2	9347	                                        Eutheria
+ 27.45	14	0	C3	1437010	                                          Boreoeutheria
+ 27.45	14	0	C4	314146	                                            Euarchontoglires
+ 27.45	14	0	O	9443	                                              Primates
+ 27.45	14	0	O1	376913	                                                Haplorrhini
+ 27.45	14	0	O2	314293	                                                  Simiiformes
+ 27.45	14	0	O3	9526	                                                    Catarrhini
+ 27.45	14	0	O4	314295	                                                      Hominoidea
+ 27.45	14	0	F	9604	                                                        Hominidae
+ 27.45	14	0	F1	207598	                                                          Homininae
+ 27.45	14	0	G	9605	                                                            Homo
+ 27.45	14	14	S	9606	                                                              Homo sapiens
+ 17.65	9	0	D	2	    Bacteria
+ 13.73	7	0	P	1224	      Proteobacteria
+ 11.76	6	0	C	1236	        Gammaproteobacteria
+  5.88	3	1	O	91347	          Enterobacterales
+  1.96	1	0	F	543	            Enterobacteriaceae
+  1.96	1	0	G	561	              Escherichia
+  1.96	1	1	S	562	                Escherichia coli
+  1.96	1	0	F	1903411	            Yersiniaceae
+  1.96	1	1	G	613	              Serratia
+  5.88	3	0	O	135625	          Pasteurellales
+  5.88	3	2	F	712	            Pasteurellaceae
+  1.96	1	0	G	292486	              Avibacterium
+  1.96	1	1	S	728	                Avibacterium paragallinarum
+  1.96	1	0	C	28211	        Alphaproteobacteria
+  1.96	1	0	O	204455	          Rhodobacterales
+  1.96	1	0	F	31989	            Rhodobacteraceae
+  1.96	1	0	G	1653176	              Cereibacter
+  1.96	1	1	S	1063	                Cereibacter sphaeroides
+  3.92	2	0	D1	1783272	      Terrabacteria group
+  1.96	1	0	P	1239	        Firmicutes
+  1.96	1	0	C	91061	          Bacilli
+  1.96	1	0	O	186826	            Lactobacillales
+  1.96	1	0	F	81852	              Enterococcaceae
+  1.96	1	0	G	2737	                Vagococcus
+  1.96	1	0	G1	2648499	                  unclassified Vagococcus
+  1.96	1	1	S	2925838	                    Vagococcus sp. CY52-2
+  1.96	1	0	P	201174	        Actinobacteria
+  1.96	1	1	C	1760	          Actinomycetia
+ 31.37	16	0	D	10239	  Viruses
+ 17.65	9	0	D1	2732004	    Varidnaviria
+ 17.65	9	0	K	2732005	      Bamfordvirae
+ 17.65	9	0	P	2732008	        Preplasmiviricota
+ 17.65	9	0	C	2732529	          Tectiliviricetes
+ 17.65	9	0	O	2732559	            Rowavirales
+ 17.65	9	0	F	10508	              Adenoviridae
+ 17.65	9	0	G	10509	                Mastadenovirus
+ 17.65	9	9	S	129951	                  Human mastadenovirus C
+ 13.73	7	0	D1	2559587	    Riboviria
+ 11.76	6	0	K	2732396	      Orthornavirae
+  5.88	3	0	P	2497569	        Negarnaviricota
+  5.88	3	0	P1	2497571	          Polyploviricotina
+  5.88	3	0	C	2497576	            Ellioviricetes
+  5.88	3	0	O	1980410	              Bunyavirales
+  5.88	3	0	F	1980418	                Phenuiviridae
+  5.88	3	0	G	11584	                  Phlebovirus
+  5.88	3	0	S	1933187	                    Rift Valley fever phlebovirus
+  5.88	3	3	S1	11588	                      Rift Valley fever virus
+  5.88	3	0	P	2732408	        Pisuviricota
+  5.88	3	0	C	2732506	          Pisoniviricetes
+  5.88	3	0	O	76804	            Nidovirales
+  5.88	3	0	O1	2499399	              Cornidovirineae
+  5.88	3	0	F	11118	                Coronaviridae
+  5.88	3	0	F1	2501931	                  Orthocoronavirinae
+  5.88	3	1	G	693996	                    Alphacoronavirus
+  3.92	2	0	G1	2509505	                      Pedacovirus
+  3.92	2	2	S	28295	                        Porcine epidemic diarrhea virus
+  1.96	1	0	K	2732397	      Pararnavirae
+  1.96	1	0	P	2732409	        Artverviricota
+  1.96	1	0	C	2732514	          Revtraviricetes
+  1.96	1	0	O	2732515	            Blubervirales
+  1.96	1	0	F	10404	              Hepadnaviridae
+  1.96	1	0	G	10405	                Orthohepadnavirus
+  1.96	1	1	S	35269	                  Woodchuck hepatitis virus
+  1.96	1	0	R1	2787854	  other entries
+  1.96	1	1	R2	28384	    other sequences

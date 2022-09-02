@@ -1,0 +1,52 @@
+# contig	classification	reason	lineage	lineage scores	superkingdom	phylum	class	order	family	genus	species
+k79_0	no taxid assigned	no ORFs found
+k79_1	no taxid assigned	no ORFs found
+k79_10	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_11	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_12	no taxid assigned	no ORFs found
+k79_13	no taxid assigned	no hits to database
+k79_14	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_15	taxid assigned	based on 1/1 ORFs	1;131567;2;1224;1236	1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	no support	no support	no support	no support
+k79_16	no taxid assigned	no ORFs found
+k79_17	taxid assigned	based on 2/2 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_18	taxid assigned	based on 1/1 ORFs	1;10239	1.00;1.00	Viruses: 1.00	no support	no support	no support	no support	no support	no support
+k79_19	no taxid assigned	no hits to database
+k79_2	no taxid assigned	no ORFs found
+k79_20	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_21	taxid assigned	based on 2/2 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_22	no taxid assigned	no hits to database
+k79_23	taxid assigned	based on 1/2 ORFs	1;131567	1.00;1.00	no support	no support	no support	no support	no support	no support	no support
+k79_24	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_25	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_26	taxid assigned	based on 2/2 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_27	taxid assigned	based on 1/1 ORFs	1;131567;2	1.00;1.00;1.00	Bacteria: 1.00	no support	no support	no support	no support	no support	no support
+k79_28	no taxid assigned	no ORFs found
+k79_29	taxid assigned	based on 1/1 ORFs	1;131567;2;1224;1236	1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	no support	no support	no support	no support
+k79_3	no taxid assigned	no ORFs found
+k79_30	no taxid assigned	no hits to database
+k79_31	taxid assigned	based on 1/1 ORFs	1;131567;2157;1783275;28889;183924;2281;118883;2284;2641160;2200888	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Archaea: 1.00	Crenarchaeota: 1.00	Thermoprotei: 1.00	Sulfolobales: 1.00	Sulfolobaceae: 1.00	Sulfolobus: 1.00	Sulfolobus sp. B1: 1.00
+k79_32	no taxid assigned	no hits to database
+k79_33	taxid assigned	based on 1/1 ORFs	1;10239;2559587;2732396;2732408;2732506;464095;675074	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Pisuviricota: 1.00	Pisoniviricetes: 1.00	Picornavirales: 1.00	no support	no support	no support
+k79_34	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_35	taxid assigned	based on 1/1 ORFs	1;131567;2759;33154;33208;6072;33213	1.00;1.00;1.00;1.00;1.00;1.00;1.00	Eukaryota: 1.00	no support	no support	no support	no support	no support	no support
+k79_36	taxid assigned	based on 1/1 ORFs	1;10239;2559587;2585030;1922348;1923143	1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	NA	NA	NA	NA	NA	Hubei picorna-like virus 60: 1.00
+k79_37	taxid assigned	based on 1/1 ORFs	1;131567;2;1224;1236;91347;1903414;583;584	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Bacteria: 1.00	Proteobacteria: 1.00	Gammaproteobacteria: 1.00	Enterobacterales: 1.00	Morganellaceae: 1.00	Proteus: 1.00	Proteus mirabilis: 1.00
+k79_38	taxid assigned	based on 1/1 ORFs	1;10239;2559587	1.00;1.00;1.00	Viruses: 1.00	no support	no support	no support	no support	no support	no support
+k79_39	no taxid assigned	no hits to database
+k79_4	no taxid assigned	no ORFs found
+k79_40	no taxid assigned	no hits to database
+k79_41	taxid assigned	based on 2/2 ORFs	1;2787854;28384;81077	1.00;0.74;0.74;0.74	no support	no support	no support	no support	no support	no support	no support
+k79_42	taxid assigned	based on 3/3 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_43	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_44	taxid assigned	based on 2/2 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_45	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_46	taxid assigned	based on 4/6 ORFs	1;10239;2559587;2732396;2732408;2732506;76804;2499399;11118;2501931;693996;366617;2419667	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Pisuviricota: 1.00	Pisoniviricetes: 1.00	Nidovirales: 1.00	Coronaviridae: 1.00	Alphacoronavirus: 1.00	Bat alphacoronavirus: 1.00
+k79_47	taxid assigned	based on 1/1 ORFs	1;10239	1.00;1.00	Viruses: 1.00	no support	no support	no support	no support	no support	no support
+k79_48	taxid assigned	based on 1/1 ORFs	1;10239;2559587;2732396;2497569;2497571;2497576;1980410;1980418;11584;1933187	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Negarnaviricota: 1.00	Ellioviricetes: 1.00	Bunyavirales: 1.00	Phenuiviridae: 1.00	Phlebovirus: 1.00	Rift Valley fever phlebovirus: 1.00
+k79_49	taxid assigned	based on 3/3 ORFs	1;10239;2559587;2732396;2732408;2732506;76804;2499399;11118;2501931;693996	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Pisuviricota: 1.00	Pisoniviricetes: 1.00	Nidovirales: 1.00	Coronaviridae: 1.00	Alphacoronavirus: 1.00	no support
+k79_5	no taxid assigned	no hits to database
+k79_50	taxid assigned	based on 1/1 ORFs	1;10239;2559587;2732396;2732408;2732506;76804;2499399;11118;2501931;693996;366617;2419667	1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00;1.00	Viruses: 1.00	Pisuviricota: 1.00	Pisoniviricetes: 1.00	Nidovirales: 1.00	Coronaviridae: 1.00	Alphacoronavirus: 1.00	Bat alphacoronavirus: 1.00
+k79_6	no taxid assigned	no ORFs found
+k79_7	taxid assigned	based on 1/1 ORFs	1	1.00	no support	no support	no support	no support	no support	no support	no support
+k79_8	no taxid assigned	no hits to database
+k79_9	no taxid assigned	no ORFs found
