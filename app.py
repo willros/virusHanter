@@ -48,12 +48,22 @@ def contig_inspection():
     """
     # files (need to make this automated later)
     megahit_csv = "static/data/sample1/results/megahit/Bat-Guano-15_S6_L001_R.csv"
-    short = "static/data/sample1/results/plots/short.png"
+    short = "static/data/sample1/results/plots/short.pdf"
+    medium = "static/data/sample1/results/plots/medium.pdf"
+    long = "static/data/sample1/results/plots/long.pdf"
 
     # plots
-    histogram = contig_quality.megahit_contig_histogram(file=megahit_csv).to_json()
-   
-    return render_template("contig_inspection.html", histogram=histogram, short=short)
+    histogram = contig_quality.megahit_contig_histogram(file=megahit_csv)
+    boxplot = contig_quality.megahit_contig_boxplot(file=megahit_csv)
+    histo_and_box = alt.hconcat(histogram, boxplot).to_json()
+
+    return render_template(
+        "contig_inspection.html",
+        histo_and_box=histo_and_box,
+        short=short,
+        medium=medium,
+        long=long,
+    )
 
 
 if __name__ == "__main__":

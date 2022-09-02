@@ -4,9 +4,19 @@
 
 {% block content %}
     
-    {{ plot_altair(histogram )}}
-    <h1> Coverage short contigs </h1>
+    <h1> Histogram and Box plot of Contig Length </h1>
 
+    {{ plot_altair(histo_and_box) }}
+
+    <h1> Coverage of Contigs </h1>
+
+    <h2> Short </h2>
     <img src="{{ short }}" alt="Short Contigs">
+
+    <h2> Medium </h2>
+    <img src="{{ medium }}" alt="Short Contigs">
+
+    <h2> Long </h2>
+    <img src="{{ long }}" alt="Short Contigs">
 
 {% endblock content%}
