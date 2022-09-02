@@ -7,6 +7,7 @@ app = Flask(__name__)
 # config
 app.secret_key = "70c6a968ed1ada341dbcbf252b3ea3cf"
 
+
 # ldap-login
 @app.before_request
 def make_session_expire():
@@ -15,3 +16,14 @@ def make_session_expire():
     """
     session.permanent = True
     app.permanent_session_lifetime = timedelta(minutes=5)
+
+
+# routes
+@app.route("/")
+@app.route("/home", methods=["GET"])
+def home():
+    """
+    Route to the home page.
+    """
+
+    return render_template("home.html")
