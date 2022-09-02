@@ -38,3 +38,13 @@ Add sidebar with possibility to choose sample to look at.
 
 - The json object of the facet wrap plots are TOO long. It serioulsy long. Need to:
  * Save the facet wrap as png and display the png in the website instead.
+ * Flask **NEEDS** to have the files inside the static folder in order to display them!
+     * Moving the data to the static folder
+**IT WORKS WITH THIS SETUP!!!!!**
+
+
+- Run the whole app inside a docker with gunicorn and ngninx: 
+    https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/
+    
+
+    

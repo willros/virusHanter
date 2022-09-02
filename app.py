@@ -47,15 +47,13 @@ def contig_inspection():
     Shows information and plots about the quality and coverage of the contigs made by MEGAHIT.
     """
     # files (need to make this automated later)
-    megahit_csv = "data/sample1/results/megahit/Bat-Guano-15_S6_L001_R.csv"
-    # mpileup = "data/sample1/results/cleaned_files/Bat-Guano-15_S6_L001_R_contigs_coverage_mpileup.csv"
+    megahit_csv = "static/data/sample1/results/megahit/Bat-Guano-15_S6_L001_R.csv"
+    short = "static/data/sample1/results/plots/short.png"
 
     # plots
     histogram = contig_quality.megahit_contig_histogram(file=megahit_csv).to_json()
-    # facet_wraps = contig_quality.megahit_contig_coverage_facet(file=mpileup)
-    # short = facet_wraps[0].to_json()
-
-    return render_template("contig_inspection.html", histogram=histogram)
+   
+    return render_template("contig_inspection.html", histogram=histogram, short=short)
 
 
 if __name__ == "__main__":

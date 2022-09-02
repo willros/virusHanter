@@ -3,30 +3,10 @@
 
 
 {% block content %}
+    
+    {{ plot_altair(histogram )}}
+    <h1> Coverage short contigs </h1>
 
-      <div id="position"></div>
-      <div id="hej"></div>
-
-
-      <!-- Placeholder for the tooltip -->
-      <div id="vis-tooltip" class="vg-tooltip"></div>
-      <!-- Render Charts -->
-      <script type="text/javascript">
-      function parse(url, div) {
-          var opt = { mode: "vega-lite",
-              renderer: "svg",
-              actions: { export: true, source: false, editor: false }
-              };
-          vegaEmbed("#" + div, url, opt, function (error, result) {
-             vegaTooltip.vegaLite(result.view, url);
-             });
-            }
-      //Parse your Json variable here
-          
-     parse({{ histogram | safe }}, "position")
-     parse({{ histogram | safe }}, "hej")
-
-
-      </script>
+    <img src="{{ short }}" alt="Short Contigs">
 
 {% endblock content%}
