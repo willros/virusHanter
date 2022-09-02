@@ -1,0 +1,29 @@
+{% macro plot_altair(plot) %}
+
+  <div id="position"></div>
+      <!-- Placeholder for the tooltip -->
+      <div id="vis-tooltip" class="vg-tooltip"></div>
+      <!-- Render Charts -->
+      <script type="text/javascript">
+      function parse(url, div) {
+          var opt = { mode: "vega-lite",
+              renderer: "svg",
+              actions: { export: true, source: false, editor: false }
+              };
+          vegaEmbed("#" + div, url, opt, function (error, result) {
+             vegaTooltip.vegaLite(result.view, url);
+             });
+            }
+      //Parse your Json variable here
+      parse({{ plot | safe }}, "position")
+      </script>
+
+{% endmacro %}
+
+
+{% macro coviz_image() %}
+
+  <img src="{{ url_for('static', filename='logo.png') }}" class="center" style="height:40%; width:20%;">
+  <br>
+
+{% endmacro %}
