@@ -1,0 +1,32 @@
+{% from "macros.html" import plot_altair, plot_logo %}
+{% extends "layout.html" %}
+
+{% block logo_image %}
+
+  {{ plot_logo() }}
+    
+{% endblock logo_image %}
+
+{% block content %}
+
+    <form  method="POST" action="">
+        <select name="pango_name" id="pango_name" required="required" style="width:200px">
+            <option value="" label="Välj typ " selected="selected">Välj typ</option>
+            {% for pango in pangos %}
+                <option value="{{pango}}"> {{pango}} </option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Välj stam" class="btn btn-primary"></input>
+    </form>
+    
+    <h3> Sekvensnamn: </h3>
+    <p> {{ name }} </p>
+    <h3> Klassificerad som: </h3>
+    <p> {{ pango_line }} </p>
+    <br>
+
+    <p> Testar mot: {{ pango }} </p>
+    
+    {{ plot_altair(plot) }}
+    
+{% endblock content%}

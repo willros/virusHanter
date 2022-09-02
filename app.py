@@ -29,5 +29,23 @@ def home():
     return render_template("home.html")
 
 
+@app.route("/raw_data", methods=["GET", "POST"])
+def raw_data():
+    """
+    Shows information about the Kaiju and Kraken runs on the raw file (not the contigs)
+    """
+
+    return render_template("raw_data.html")
+
+
+@app.route("/contig_inspection", methods=["GET"])
+def contig_inspection():
+    """
+    Shows information and plots about the quality and coverage of the contigs made by MEGAHIT.
+    """
+
+    return render_template("contig_inspection.html")
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=9898, debug=True)
