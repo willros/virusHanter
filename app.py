@@ -37,8 +37,19 @@ def raw_data():
     """
     Shows information about the Kaiju and Kraken runs on the raw file (not the contigs)
     """
-
-    return render_template("raw_data.html")
+    # make this into a session variable which the user can switch between in the right sidebar
+    current_sample = "sample1"
+    
+    # files
+    cleaned_bracken_report = f"static/data/{current_sample}/results/cleaned_files/Bat-Guano-15_S6_L001_R_bracken_raw.csv"
+    
+    # plots
+    # the pie chart doesnt work...why? 
+    bracken_bar_plot = bracken_raw.bar_chart_bracken_raw(cleaned_bracken_report).to_json()
+    bracken_pie_chart = bracken_raw.pie_chart_bracken_raw(cleaned_bracken_report).to_json()
+    #bar_and_pie = alt.vconcat(bracken_bar_plot, bracken_pie_chart).to_json()
+    
+    return render_template("raw_data.html", bracken_bar_plot=bracken_bar_plot, bracken_pie_chart=bracken_pie_chart)
 
 
 @app.route("/contig_inspection", methods=["GET"])
