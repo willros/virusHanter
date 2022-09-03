@@ -54,4 +54,6 @@ Add divs and style them in the css file later. This can be useful to create a ni
 - Add a nice representation of the underlying tables for the data. 
 
 - Add possibility to choose number of species to show and the cutoff threshold.
+
+- Add so that the nextflow workflow produces the plots for contig coverage 
     

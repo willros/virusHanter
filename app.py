@@ -2,8 +2,9 @@ from flask import Flask, render_template, url_for, request, flash, redirect, ses
 from datetime import timedelta
 import altair as alt
 import pathlib
+import pandas as pd
 
-from plotting import bracken_raw, contig_quality, kaiju_raw, kaiju_megahit
+from plotting import bracken_raw, contig_quality, kaiju_raw, kaiju_megahit, cat_megahit
 
 # init app and objects
 app = Flask(__name__)
@@ -32,7 +33,7 @@ def home():
     Route to the home page.
     """
     if not "SAMPLE" in session:
-        session['SAMPLE'] = app.config.SAMPLES[0]
+        session["SAMPLE"] = app.config.SAMPLES[0]
 
     return render_template("home.html")
 
@@ -42,7 +43,7 @@ def choose_sample():
     """
     Stores the sample to analyze in the session variable.
     """
-    session['SAMPLE'] = request.form.get("sample_name")
+    session["SAMPLE"] = request.form.get("sample_name")
 
     return render_template("choose_sample.html", samples=app.config.SAMPLES)
 
@@ -87,9 +88,7 @@ def contig_inspection():
     Shows information and plots about the quality and coverage of the contigs made by MEGAHIT.
     """
     # files
-    megahit_csv = (
-        f"{session['SAMPLE']}/results/megahit/Bat-Guano-15_S6_L001_R.csv"
-    )
+    megahit_csv = f"{session['SAMPLE']}/results/megahit/Bat-Guano-15_S6_L001_R.csv"
     short = f"{session['SAMPLE']}/results/plots/short.pdf"
     medium = f"{session['SAMPLE']}/results/plots/medium.pdf"
     long = f"{session['SAMPLE']}/results/plots/long.pdf"
@@ -111,15 +110,37 @@ def contig_inspection():
 @app.route("/contig_data", methods=["GET"])
 def contig_data():
     """
-    Shows analysis of the contig data. 
+    Shows analysis of the contig data.
     """
-    
+
     # files
     kaiju_megahit_report = f"{session['SAMPLE']}/results/kaiju/megahit/Bat-Guano-15_S6_L001_R_names_megahit.out"
+    cat_megahit_out = (
+        f"{session['SAMPLE']}/results/cat/CAT_Bat-Guano-15_S6_L001_R_contigs_names.txt"
+    )
 
     # plots
-    kaiju_bar_plot = kaiju_megahit.bar_chart_kaiju_megahit(file=kaiju_megahit_report).to_json()
-    return render_template("contig_data.html", kaiju_bar_plot=kaiju_bar_plot, current_sample=session["SAMPLE"])
+    kaiju_bar_plot = kaiju_megahit.bar_chart_kaiju_megahit(file=kaiju_megahit_report)
+    cat_bar_plot = cat_megahit.bar_chart_cat_megahit(file=cat_megahit_out)
+    kaiju_and_cat = (
+        alt.hconcat(kaiju_bar_plot, cat_bar_plot)
+        .resolve_scale(color="independent")
+        .to_json()
+    )
+
+    # test dataframe
+    csv = f"{session['SAMPLE']}/results/cleaned_files/Bat-Guano-15_S6_L001_R_cat_kaiju_merged.csv"
+    df = pd.read_csv(csv)[
+        ["name", "taxon_id", "length", "last_level_kaiju", "last_level_cat"]
+    ]
+
+    return render_template(
+        "contig_data.html",
+        kaiju_and_cat=kaiju_and_cat,
+        current_sample=session["SAMPLE"],
+        df=df.to_html(),
+    )
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)

@@ -11,25 +11,10 @@
 
 <h2> Estimated Taxonomic content of {{ current_sample }} </h2>
 
-<div id="kaiju"></div>
+    {{ plot_altair(kaiju_and_cat) }}
 
-<!-- Placeholder for the tooltip -->
-<div id="vis-tooltip" class="vg-tooltip"></div>
-      <!-- Render Charts -->
-      <script type="text/javascript">
-      function parse(url, div) {
-          var opt = { mode: "vega-lite",
-              renderer: "svg",
-              actions: { export: true, source: false, editor: false }
-              };
-          vegaEmbed("#" + div, url, opt, function (error, result) {
-             vegaTooltip.vegaLite(result.view, url);
-             });
-            }
-      //Parse your Json variable here
-      parse({{ kaiju_bar_plot | safe }}, "kaiju")
+<br> 
+<h1> Dataframe </h1>
+{{df | safe}}
 
-      </script>
-
-    
 {% endblock content%}
