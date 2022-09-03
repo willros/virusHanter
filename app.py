@@ -97,16 +97,16 @@ def contig_inspection():
     histogram = contig_quality.megahit_contig_histogram(file=megahit_csv)
     boxplot = contig_quality.megahit_contig_boxplot(file=megahit_csv)
     histo_and_box = alt.hconcat(histogram, boxplot).to_json()
-    
+
     # checkv dataframe
     checkv_tsv = f"{session['SAMPLE']}//results/checkv/Bat-Guano-15_S6_L001_R_quality_summary.tsv"
-    checkv_df = (pd.read_csv(checkv_tsv,
-                 sep='\t')
-      .sort_values('contig_length', ascending=False)
-      .drop(
-          columns=['warnings', 'kmer_freq', 'completeness_method', 'miuvig_quality']
-      )
-)
+    checkv_df = (
+        pd.read_csv(checkv_tsv, sep="\t")
+        .sort_values("contig_length", ascending=False)
+        .drop(
+            columns=["warnings", "kmer_freq", "completeness_method", "miuvig_quality"]
+        )
+    )
 
     return render_template(
         "contig_inspection.html",
@@ -114,7 +114,7 @@ def contig_inspection():
         short=short,
         medium=medium,
         long=long,
-        checkv_df=checkv_df.to_html()
+        checkv_df=checkv_df.to_html(),
     )
 
 
