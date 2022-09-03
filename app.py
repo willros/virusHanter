@@ -32,19 +32,18 @@ def home():
     """
     Route to the home page.
     """
-    if not "sample" in session:
-        session['sample'] = app.config.SAMPLES[0]
-        
-    return render_template("home.html")
+    if not "SAMPLE" in session:
+        session['SAMPLE'] = app.config.SAMPLES[0]
 
+    return render_template("home.html")
 
 
 @app.route("/choose_sample", methods=["GET", "POST"])
 def choose_sample():
     """
-    Stores the sample to analyze in the session variable. 
+    Stores the sample to analyze in the session variable.
     """
-    session['sample'] = request.form.get('sample_name')
+    session['SAMPLE'] = request.form.get("sample_name")
 
     return render_template("choose_sample.html", samples=app.config.SAMPLES)
 
@@ -54,12 +53,10 @@ def raw_data():
     """
     Shows information about the Kaiju and Kraken runs on the raw file (not the contigs)
     """
-    # make this into a session variable which the user can switch between in the right sidebar
-    current_sample = "sample1"
 
     # files
-    cleaned_bracken_report = f"static/data/{current_sample}/results/cleaned_files/Bat-Guano-15_S6_L001_R_bracken_raw.csv"
-    clenaed_kaiju_report = f"static/data/{current_sample}/results/cleaned_files/Bat-Guano-15_S6_L001_R_kaiju_raw.csv"
+    cleaned_bracken_report = f"{session['SAMPLE']}/results/cleaned_files/Bat-Guano-15_S6_L001_R_bracken_raw.csv"
+    clenaed_kaiju_report = f"{session['SAMPLE']}/results/cleaned_files/Bat-Guano-15_S6_L001_R_kaiju_raw.csv"
 
     # plots
     # the pie chart doesnt work...why?
@@ -81,7 +78,7 @@ def raw_data():
         "raw_data.html",
         species_and_domain_bracken=species_and_domain_bracken,
         kaiju_bar_plot=kaiju_bar_plot,
-        current_sample=current_sample,
+        current_sample=session["SAMPLE"],
     )
 
 
@@ -90,16 +87,13 @@ def contig_inspection():
     """
     Shows information and plots about the quality and coverage of the contigs made by MEGAHIT.
     """
-    # make this into a session variable which the user can switch between in the right sidebar
-    current_sample = "sample1"
-
-    # files (need to make this automated later)
+    # files
     megahit_csv = (
-        f"static/data/{current_sample}/results/megahit/Bat-Guano-15_S6_L001_R.csv"
+        f"{session['SAMPLE']}/results/megahit/Bat-Guano-15_S6_L001_R.csv"
     )
-    short = f"static/data/{current_sample}/results/plots/short.pdf"
-    medium = f"static/data/{current_sample}/results/plots/medium.pdf"
-    long = f"static/data/{current_sample}/results/plots/long.pdf"
+    short = f"{session['SAMPLE']}/results/plots/short.pdf"
+    medium = f"{session['SAMPLE']}/results/plots/medium.pdf"
+    long = f"{session['SAMPLE']}/results/plots/long.pdf"
 
     # plots
     histogram = contig_quality.megahit_contig_histogram(file=megahit_csv)
@@ -114,6 +108,14 @@ def contig_inspection():
         long=long,
     )
 
+
+@app.route("/contig_data", methods=["GET"])
+def contig_data():
+    """
+    Shows analysiss of the contig data. 
+    """
+
+    return render_template("contig_data.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)

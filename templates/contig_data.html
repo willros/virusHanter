@@ -1,0 +1,37 @@
+{% from "macros.html" import plot_altair, plot_logo %}
+{% extends "layout.html" %}
+
+{% block logo_image %}
+
+  {{ plot_logo() }}
+    
+{% endblock logo_image %}
+
+{% block content %}
+
+<h2> Estimated Taxonomic content of {{ current_sample }} </h2>
+
+<div id="bracken"></div>
+<div id="kaiju"></div>
+
+<!-- Placeholder for the tooltip -->
+<div id="vis-tooltip" class="vg-tooltip"></div>
+      <!-- Render Charts -->
+      <script type="text/javascript">
+      function parse(url, div) {
+          var opt = { mode: "vega-lite",
+              renderer: "svg",
+              actions: { export: true, source: false, editor: false }
+              };
+          vegaEmbed("#" + div, url, opt, function (error, result) {
+             vegaTooltip.vegaLite(result.view, url);
+             });
+            }
+      //Parse your Json variable here
+      parse({{ species_and_domain_bracken | safe }}, "bracken")
+      parse({{ kaiju_bar_plot | safe }}, "kaiju")
+
+      </script>
+
+    
+{% endblock content%}
