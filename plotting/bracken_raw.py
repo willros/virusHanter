@@ -92,4 +92,4 @@ def pie_chart_bracken_raw(file: str) -> alt.vegalite.v4.api.Chart:
 
     text = pie.mark_text(radius=174, size=10).encode(text="name:N")
 
-    return (pie + text)
+    return pie + text

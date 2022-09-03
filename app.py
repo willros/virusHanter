@@ -1,15 +1,19 @@
 from flask import Flask, render_template, url_for, request, flash, redirect, session
 from datetime import timedelta
 import altair as alt
+import pathlib
 
 from plotting import bracken_raw, contig_quality
+from plotting import kaiju_raw
 
 # init app and objects
 app = Flask(__name__)
 
 # config
 app.secret_key = "70c6a968ed1ada341dbcbf252b3ea3cf"
-
+app.config.SAMPLES = [
+    str(x) for x in pathlib.Path("static/data").iterdir() if x.is_dir()
+]
 
 # ldap-login
 @app.before_request
@@ -39,17 +43,33 @@ def raw_data():
     """
     # make this into a session variable which the user can switch between in the right sidebar
     current_sample = "sample1"
-    
+
     # files
     cleaned_bracken_report = f"static/data/{current_sample}/results/cleaned_files/Bat-Guano-15_S6_L001_R_bracken_raw.csv"
-    
+    clenaed_kaiju_report = f"static/data/{current_sample}/results/cleaned_files/Bat-Guano-15_S6_L001_R_kaiju_raw.csv"
+
     # plots
-    # the pie chart doesnt work...why? 
-    bracken_bar_plot = bracken_raw.bar_chart_bracken_raw(cleaned_bracken_report).to_json()
-    bracken_pie_chart = bracken_raw.pie_chart_bracken_raw(cleaned_bracken_report).to_json()
-    #bar_and_pie = alt.vconcat(bracken_bar_plot, bracken_pie_chart).to_json()
-    
-    return render_template("raw_data.html", bracken_bar_plot=bracken_bar_plot, bracken_pie_chart=bracken_pie_chart)
+    # the pie chart doesnt work...why?
+    bracken_bar_plot = bracken_raw.bar_chart_bracken_raw(cleaned_bracken_report)
+    bracken_domain_bar_plot = bracken_raw.bar_chart_bracken_raw(
+        cleaned_bracken_report, level="domain", virus_only=False
+    )
+    kaiju_bar_plot = kaiju_raw.bar_chart_kaiju_raw(file=clenaed_kaiju_report).to_json()
+
+    # bracken_pie_chart = bracken_raw.pie_chart_bracken_raw(cleaned_bracken_report).to_json()
+    # bar_and_pie = alt.vconcat(bracken_bar_plot, bracken_pie_chart).to_json()
+    species_and_domain_bracken = (
+        alt.hconcat(bracken_bar_plot, bracken_domain_bar_plot)
+        .resolve_scale(color="independent")
+        .to_json()
+    )
+
+    return render_template(
+        "raw_data.html",
+        species_and_domain_bracken=species_and_domain_bracken,
+        kaiju_bar_plot=kaiju_bar_plot,
+        current_sample=current_sample,
+    )
 
 
 @app.route("/contig_inspection", methods=["GET"])
