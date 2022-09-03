@@ -3,8 +3,7 @@ from datetime import timedelta
 import altair as alt
 import pathlib
 
-from plotting import bracken_raw, contig_quality
-from plotting import kaiju_raw
+from plotting import bracken_raw, contig_quality, kaiju_raw, kaiju_megahit
 
 # init app and objects
 app = Flask(__name__)
@@ -112,10 +111,15 @@ def contig_inspection():
 @app.route("/contig_data", methods=["GET"])
 def contig_data():
     """
-    Shows analysiss of the contig data. 
+    Shows analysis of the contig data. 
     """
+    
+    # files
+    kaiju_megahit_report = f"{session['SAMPLE']}/results/kaiju/megahit/Bat-Guano-15_S6_L001_R_names_megahit.out"
 
-    return render_template("contig_data.html")
+    # plots
+    kaiju_bar_plot = kaiju_megahit.bar_chart_kaiju_megahit(file=kaiju_megahit_report).to_json()
+    return render_template("contig_data.html", kaiju_bar_plot=kaiju_bar_plot, current_sample=session["SAMPLE"])
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)

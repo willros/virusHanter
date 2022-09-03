@@ -11,7 +11,6 @@
 
 <h2> Estimated Taxonomic content of {{ current_sample }} </h2>
 
-<div id="bracken"></div>
 <div id="kaiju"></div>
 
 <!-- Placeholder for the tooltip -->
@@ -28,7 +27,6 @@
              });
             }
       //Parse your Json variable here
-      parse({{ species_and_domain_bracken | safe }}, "bracken")
       parse({{ kaiju_bar_plot | safe }}, "kaiju")
 
       </script>

@@ -1,6 +1,6 @@
 import pandas as pd
 import altair as alt
-
+alt.data_transformers.disable_max_rows()
 
 def df_bracken_species_raw(
     file: str, level: str = "species", cutoff: float = 0.001, virus_only: bool = True
