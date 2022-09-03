@@ -1,0 +1,22 @@
+{% from "macros.html" import plot_altair, plot_logo %}
+{% extends "layout.html" %}
+
+{% block logo_image %}
+
+  {{ plot_logo() }}
+    
+{% endblock logo_image %}
+
+{% block content %}
+
+<form  method="POST" action="">
+        <select name="sample_name" id="sample_name" required="required" style="width:200px">
+            <option value="" label="Välj typ " selected="selected">Choose sample to Analyze</option>
+            {% for sample in samples %}
+            <option value="{{sample}}"> {{sample}} </option>
+            {% endfor %}
+        </select>
+        <input  type="submit" value="Choose Sample" class="btn btn-primary"></input>
+</form>
+
+{% endblock content %}

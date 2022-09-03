@@ -32,8 +32,21 @@ def home():
     """
     Route to the home page.
     """
-
+    if not "sample" in session:
+        session['sample'] = app.config.SAMPLES[0]
+        
     return render_template("home.html")
+
+
+
+@app.route("/choose_sample", methods=["GET", "POST"])
+def choose_sample():
+    """
+    Stores the sample to analyze in the session variable. 
+    """
+    session['sample'] = request.form.get('sample_name')
+
+    return render_template("choose_sample.html", samples=app.config.SAMPLES)
 
 
 @app.route("/raw_data", methods=["GET", "POST"])
