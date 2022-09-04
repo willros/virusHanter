@@ -64,3 +64,5 @@ Add divs and style them in the css file later. This can be useful to create a ni
 ## Solved the include fastpreport problem like so:
 the function copy_fastp copies the fastp report into the templates dir every time the route is called. Maybe this will not work in linux?? Will have to try. Kinda hacky solution.
     
+**Include the KRONA chart**
+Same way as the fastp report 

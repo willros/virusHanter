@@ -4,7 +4,7 @@ install:
     
     
 format:
-	black *.py plotting/*.py ldap-login/*.py forms/*.py
+	black *.py plotting/*.py ldap-login/*.py forms/*.py helper_functions/*.py
 
 lint:
 	pylint --disable=R,C *.py plotting/*.py ldap-login/*.py forms/*.py
