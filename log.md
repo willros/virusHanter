@@ -60,4 +60,7 @@ Add divs and style them in the css file later. This can be useful to create a ni
 # 2022-09-04
 
 - Include the read quaility and other qc stuff in the app.
+     - Jinja2 expects the html templates to live within the "tempalates" folder, just like it expects images to live withing the "static" folder. Therefore, it cannot find the fastp template. Need to fix this. 
+## Solved the include fastpreport problem like so:
+the function copy_fastp copies the fastp report into the templates dir every time the route is called. Maybe this will not work in linux?? Will have to try. Kinda hacky solution.
     
