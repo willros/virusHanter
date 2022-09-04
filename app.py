@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for, request, flash, redirect, session
 from datetime import timedelta
 import altair as alt
-import pathlib
+from pathlib import Path
 import pandas as pd
 
 from plotting import bracken_raw, contig_quality, kaiju_raw, kaiju_megahit, cat_megahit
@@ -11,9 +11,7 @@ app = Flask(__name__)
 
 # config
 app.secret_key = "70c6a968ed1ada341dbcbf252b3ea3cf"
-app.config.SAMPLES = [
-    str(x) for x in pathlib.Path("static/data").iterdir() if x.is_dir()
-]
+app.config.SAMPLES = [str(x) for x in Path("static/data").iterdir() if x.is_dir()]
 
 # ldap-login
 @app.before_request
@@ -24,6 +22,10 @@ def make_session_expire():
     session.permanent = True
     app.permanent_session_lifetime = timedelta(minutes=5)
 
+    # choose the last sample if sample is not chosen.
+    if not "SAMPLE" in session:
+        session["SAMPLE"] = app.config.SAMPLES[-1]
+
 
 # routes
 @app.route("/")
@@ -32,8 +34,6 @@ def home():
     """
     Route to the home page.
     """
-    if not "SAMPLE" in session:
-        session["SAMPLE"] = app.config.SAMPLES[0]
 
     return render_template("home.html")
 
@@ -55,8 +55,8 @@ def raw_data():
     """
 
     # files
-    cleaned_bracken_report = f"{session['SAMPLE']}/results/cleaned_files/Bat-Guano-15_S6_L001_R_bracken_raw.csv"
-    clenaed_kaiju_report = f"{session['SAMPLE']}/results/cleaned_files/Bat-Guano-15_S6_L001_R_kaiju_raw.csv"
+    cleaned_bracken_report = list(Path(session["SAMPLE"]).rglob("*bracken_raw.csv"))[0]
+    cleaned_kaiju_report = list(Path(session["SAMPLE"]).rglob("*kaiju_raw.csv"))[0]
 
     # plots
     # the pie chart doesnt work...why?
@@ -64,7 +64,7 @@ def raw_data():
     bracken_domain_bar_plot = bracken_raw.bar_chart_bracken_raw(
         cleaned_bracken_report, level="domain", virus_only=False
     )
-    kaiju_bar_plot = kaiju_raw.bar_chart_kaiju_raw(file=clenaed_kaiju_report).to_json()
+    kaiju_bar_plot = kaiju_raw.bar_chart_kaiju_raw(file=cleaned_kaiju_report).to_json()
 
     # bracken_pie_chart = bracken_raw.pie_chart_bracken_raw(cleaned_bracken_report).to_json()
     # bar_and_pie = alt.vconcat(bracken_bar_plot, bracken_pie_chart).to_json()
@@ -88,10 +88,15 @@ def contig_inspection():
     Shows information and plots about the quality and coverage of the contigs made by MEGAHIT.
     """
     # files
-    megahit_csv = f"{session['SAMPLE']}/results/megahit/Bat-Guano-15_S6_L001_R.csv"
-    short = f"{session['SAMPLE']}/results/plots/short.pdf"
-    medium = f"{session['SAMPLE']}/results/plots/medium.pdf"
-    long = f"{session['SAMPLE']}/results/plots/long.pdf"
+    megahit_csv = list(
+        Path(session["SAMPLE"]).joinpath("results/megahit").rglob("*.csv")
+    )[0]
+
+    short = list(Path(session["SAMPLE"]).rglob("*short.pdf"))[0]
+    medium = list(Path(session["SAMPLE"]).rglob("*medium.pdf"))[0]
+    long = list(Path(session["SAMPLE"]).rglob("*long.pdf"))[0]
+
+    checkv_tsv = list(Path(session["SAMPLE"]).rglob("*quality_summary.tsv"))[0]
 
     # plots
     histogram = contig_quality.megahit_contig_histogram(file=megahit_csv)
@@ -99,7 +104,6 @@ def contig_inspection():
     histo_and_box = alt.hconcat(histogram, boxplot).to_json()
 
     # checkv dataframe
-    checkv_tsv = f"{session['SAMPLE']}//results/checkv/Bat-Guano-15_S6_L001_R_quality_summary.tsv"
     checkv_df = (
         pd.read_csv(checkv_tsv, sep="\t")
         .sort_values("contig_length", ascending=False)
@@ -125,10 +129,9 @@ def contig_data():
     """
 
     # files
-    kaiju_megahit_report = f"{session['SAMPLE']}/results/kaiju/megahit/Bat-Guano-15_S6_L001_R_names_megahit.out"
-    cat_megahit_out = (
-        f"{session['SAMPLE']}/results/cat/CAT_Bat-Guano-15_S6_L001_R_contigs_names.txt"
-    )
+    kaiju_megahit_report = list(Path(session["SAMPLE"]).rglob("*megahit.out"))[0]
+    cat_megahit_out = list(Path(session["SAMPLE"]).rglob("*contigs_names.txt"))[0]
+    cat_kaiju_csv = list(Path(session["SAMPLE"]).rglob("*cat_kaiju_merged.csv"))[0]
 
     # plots
     kaiju_bar_plot = kaiju_megahit.bar_chart_kaiju_megahit(file=kaiju_megahit_report)
@@ -139,9 +142,8 @@ def contig_data():
         .to_json()
     )
 
-    # test dataframe
-    csv = f"{session['SAMPLE']}/results/cleaned_files/Bat-Guano-15_S6_L001_R_cat_kaiju_merged.csv"
-    df = pd.read_csv(csv)[
+    # cat and kaiju dataframe
+    df = pd.read_csv(cat_kaiju_csv)[
         ["name", "taxon_id", "length", "last_level_kaiju", "last_level_cat"]
     ]
 
