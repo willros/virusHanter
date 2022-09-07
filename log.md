@@ -66,3 +66,11 @@ the function copy_fastp copies the fastp report into the templates dir every tim
     
 **Include the KRONA chart**
 Same way as the fastp report 
+
+# 2022-09-07
+
+- Add links to the contig dataframe (cat and kaiju) so that the sequence is downloaded or shown as a fasta file. 
+- Add possibility to choose number of species to show and the cutoff threshold.
+
+
+### Compare unknown (and know) sequences between samples, when the database are big enough. 

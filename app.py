@@ -54,13 +54,19 @@ def raw_data():
     """
     Shows information about the Kaiju and Kraken runs on the raw file (not the contigs)
     """
+    # number of species to show in the bar plots
+    number = 10  # default
+    if request.method == "POST":
+        number = int(request.form.get("number"))
 
     # files
     cleaned_bracken_report = list(Path(session["SAMPLE"]).rglob("*bracken_raw.csv"))[0]
     cleaned_kaiju_report = list(Path(session["SAMPLE"]).rglob("*kaiju_raw.csv"))[0]
 
     # plots
-    bracken_bar_plot = bracken_raw.bar_chart_bracken_raw(cleaned_bracken_report)
+    bracken_bar_plot = bracken_raw.bar_chart_bracken_raw(
+        cleaned_bracken_report, number=number
+    )
     bracken_domain_bar_plot = bracken_raw.bar_chart_bracken_raw(
         cleaned_bracken_report, level="domain", virus_only=False
     )
@@ -190,6 +196,17 @@ def krona_contig():
     move_files.copy_reports(krona_contig, template_folder, name="krona_contig.html")
 
     return render_template("krona_contig.html")
+
+
+@app.route("/test_template", methods=["GET", "POST"])
+def test_template():
+    """
+    For testing different templates
+    """
+    if request.method == "POST":
+        number = request.form.get("number")
+
+    return render_template("test_template.html")
 
 
 if __name__ == "__main__":

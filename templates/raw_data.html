@@ -11,6 +11,14 @@
 
 <h2> Estimated Taxonomic content of {{ current_sample }} </h2>
 
+<!-- Slider to choose how many viruses to show in the plot -->
+<form  method="POST" action="">
+        <label for="customRange3" class="form-label">Choose numbers to show</label>
+        <input type="range" name="number" id="number" class="form-range" min="1" max="15" step="1.0">
+        <input type="submit" value="Choose Sample" class="btn btn-primary"></input>
+</form>
+
+
 <div id="bracken"></div>
 <div id="kaiju"></div>
 
@@ -32,5 +40,7 @@
       parse({{ kaiju_bar_plot | safe }}, "kaiju")
 
       </script>
+
+
     
 {% endblock content%}
