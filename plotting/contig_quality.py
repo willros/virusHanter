@@ -73,7 +73,7 @@ def megahit_contig_coverage_facet(file: str) -> list[alt.vegalite.v4.api.Chart]:
     for contig in ["short", "medium", "long"]:
 
         base = (
-            alt.Chart(contigs_coverage.loc[lambda x: x.category == contig])
+            alt.Chart(contigs_coverage.loc[lambda x, contig=contig: x.category == contig])
             .mark_line(color=colors[contig])
             .encode(
                 alt.X(

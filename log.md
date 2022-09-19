@@ -77,3 +77,32 @@ Same way as the fastp report
 
 
 ### Compare unknown (and know) sequences between samples, when the database are big enough. 
+
+# 2022-09-19
+
+* Enabled a dockerized version of the app.
+build the container:
+```bash
+# docker file:
+FROM python:3.9-slim-buster
+RUN mkdir -p /app
+WORKDIR /app
+COPY ./requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+EXPOSE 5000
+
+# build the image
+docker build -t flask .
+
+# run the container 
+docker run -ti --rm -p 8080:5000 -v "${PWD}":/app flask flask run --host=0.0.0.0 
+```
+**Super important with --host=0.0.0.0**!!
+
+ALSO WORKS WITH:
+```bash
+docker-compose up -d
+```
+
+
