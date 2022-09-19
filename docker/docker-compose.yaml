@@ -1,9 +1,15 @@
 services:
   web:
     build: ./web
-    image: flask
     command: gunicorn --bind 0.0.0.0:5000 --workers=4 app:app
     volumes:
       - ../:/app
+    expose:
+      - 5000
+      
+  nginx:
+    build: ./nginx
     ports:
-      - 8080:5000
+      - 1337:80
+    depends_on:
+      - web

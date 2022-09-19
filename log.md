@@ -107,6 +107,7 @@ docker-compose up -d
 
 It works running via gunicorn, but it is super slow! WHY?? 
 **Increased numbers of workers** Now it is MUCH faster
+
 ```docker-compose.yaml
 services:
   web:
@@ -118,5 +119,41 @@ services:
     ports:
       - 8080:5000
 ```
+new docker-compose.yaml file:
+```bash
+services:
+  web:
+    build: ./web
+    command: gunicorn --bind 0.0.0.0:5000 --workers=4 app:app
+    volumes:
+      - ../:/app
+    expose:
+      - 5000
+      
+  nginx:
+    build: ./nginx
+    ports:
+      - 1337:80
+    depends_on:
+      - web
+      
+# ngninx compose file 
+upstream hello_flask {
+    server web:5000;
+}
 
+server {
 
+    listen 80;
+
+    location / {
+        proxy_pass http://hello_flask;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $host;
+        proxy_redirect off;
+    }
+
+}
+```
+
+`docker-compose up -d ` works with this setup
