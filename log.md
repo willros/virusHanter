@@ -70,7 +70,10 @@ Same way as the fastp report
 # 2022-09-07
 
 - Add links to the contig dataframe (cat and kaiju) so that the sequence is downloaded or shown as a fasta file. 
-- Add possibility to choose number of species to show and the cutoff threshold.
+    - Choose the name of the contig in a select window below and when submitted the user are redirected to a new url with the sequence. 
+    - render_template which takes only the sequence string as input. The word-break: break-all in the css file line breaks the paragraph so the sequence is splitted. 
+    
+- Add possibility to choose number of species to show and the cutoff threshold. CHECK
 
 
 ### Compare unknown (and know) sequences between samples, when the database are big enough. 

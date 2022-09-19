@@ -3,13 +3,14 @@
 {% block content %}
 
 <form  method="POST" action="">
-    
-        <label for="customRange3" class="form-label">Choose numbers to show</label>
-        <input type="range" name="number" id="number" class="form-range" min="1" max="10" step="1.0">
-        <input type="submit" value="Choose Sample" class="btn btn-primary"></input>
-
+        <select name="contig_name" id="contig_name" style="width:200px">
+            <option value="" label="Välj typ " selected="selected">Choose sample to Analyze</option>
+            {% for contig in contigs %}
+            <option value="{{contig}}"> {{contig}} </option>
+            {% endfor %}
+        </select>
+        <input  type="submit" value="Choose Sample" class="btn btn-primary"></input>
 </form>
-
 {% endblock content%}
 
 

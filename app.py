@@ -126,7 +126,7 @@ def contig_inspection():
     )
 
 
-@app.route("/contig_data", methods=["GET"])
+@app.route("/contig_data", methods=["GET", "POST"])
 def contig_data():
     """
     Shows analysis of the contig data.
@@ -147,15 +147,23 @@ def contig_data():
     )
 
     # cat and kaiju dataframe
-    df = pd.read_csv(cat_kaiju_csv)[
-        ["name", "taxon_id", "length", "last_level_kaiju", "last_level_cat"]
-    ]
+    df = pd.read_csv(cat_kaiju_csv)
+
+    # choose fasta sequence to look at
+    contigs = df.name.to_list()
+    if request.method == "POST":
+        contig = request.form.get("contig_name")
+        sequence = df.loc[lambda x: x.name == contig].sequence.squeeze()
+        return render_template("fasta_sequence.html", contig=contig, sequence=sequence)
 
     return render_template(
         "contig_data.html",
         kaiju_and_cat=kaiju_and_cat,
         current_sample=session["SAMPLE"],
-        df=df.to_html(),
+        df=df[
+            ["name", "taxon_id", "length", "last_level_kaiju", "last_level_cat"]
+        ].to_html(),
+        contigs=contigs,
     )
 
 
@@ -203,10 +211,18 @@ def test_template():
     """
     For testing different templates
     """
-    if request.method == "POST":
-        number = request.form.get("number")
+    cat_kaiju_csv = list(Path(session["SAMPLE"]).rglob("*cat_kaiju_merged.csv"))[0]
 
-    return render_template("test_template.html")
+    df = pd.read_csv(cat_kaiju_csv)
+
+    contigs = df.name.to_list()
+
+    if request.method == "POST":
+        contig = request.form.get("contig_name")
+        sequence = df.loc[lambda x: x.name == contig].sequence.squeeze()
+        return render_template("fasta_sequence.html", contig=contig, sequence=sequence)
+
+    return render_template("test_template.html", contigs=contigs)
 
 
 if __name__ == "__main__":
