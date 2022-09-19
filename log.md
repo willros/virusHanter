@@ -105,4 +105,18 @@ ALSO WORKS WITH:
 docker-compose up -d
 ```
 
+It works running via gunicorn, but it is super slow! WHY?? 
+**Increased numbers of workers** Now it is MUCH faster
+```docker-compose.yaml
+services:
+  web:
+    build: ./web
+    image: flask
+    command: gunicorn --bind 0.0.0.0:5000 --workers=4 app:app
+    volumes:
+      - ../:/app
+    ports:
+      - 8080:5000
+```
+
 
