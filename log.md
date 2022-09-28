@@ -157,3 +157,15 @@ server {
 ```
 
 `docker-compose up -d ` works with this setup
+
+
+# 2022-09-21
+
+* nginx and SSL on docker: 
+    * https://faun.pub/setting-up-ssl-certificates-for-nginx-in-docker-environ-e7eec5ebb418
+* Create ssl cert:
+    * https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-on-ubuntu-14-04
+* User and password to login on nginx:
+    * https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
+    https://medium.com/pernod-ricard-tech/adding-basic-authentication-with-nginx-as-a-reverse-proxy-a229f9d12b73
+    
