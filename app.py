@@ -206,6 +206,7 @@ def krona_contig():
     return render_template("krona_contig.html")
 
 
+# route for testing
 @app.route("/test_template", methods=["GET", "POST"])
 def test_template():
     """
