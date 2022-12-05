@@ -96,9 +96,9 @@ def contig_inspection():
         Path(session["SAMPLE"]).joinpath("results/megahit").rglob("*.csv")
     )[0]
 
-    short = list(Path(session["SAMPLE"]).rglob("*short.pdf"))[0]
-    medium = list(Path(session["SAMPLE"]).rglob("*medium.pdf"))[0]
-    long = list(Path(session["SAMPLE"]).rglob("*long.pdf"))[0]
+    short = list(Path(session["SAMPLE"]).rglob("*short*.pdf"))[0]
+    medium = list(Path(session["SAMPLE"]).rglob("*medium*.pdf"))[0]
+    long = list(Path(session["SAMPLE"]).rglob("*long*.pdf"))[0]
 
     checkv_tsv = list(Path(session["SAMPLE"]).rglob("*quality_summary.tsv"))[0]
 
