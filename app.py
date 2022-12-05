@@ -95,11 +95,27 @@ def contig_inspection():
     megahit_csv = list(
         Path(session["SAMPLE"]).joinpath("megahit").rglob("*.csv")
     )[0]
+    
+    # pdf placeholder for the samples that lack a certain figure of contig size
+    short = Path("static/no-contigs-placeholder.pdf")
+    medium = Path("static/no-contigs-placeholder.pdf")
+    long = Path("static/no-contigs-placeholder.pdf")
+    
+    try:
+        short = list(Path(session["SAMPLE"]).rglob("*short*.pdf"))[0]
+    except:
+        pass
 
-    short = list(Path(session["SAMPLE"]).rglob("*short*.pdf"))[0]
-    medium = list(Path(session["SAMPLE"]).rglob("*medium*.pdf"))[0]
-    long = list(Path(session["SAMPLE"]).rglob("*long*.pdf"))[0]
-
+    try:
+        medium = list(Path(session["SAMPLE"]).rglob("*medium*.pdf"))[0]
+    except:
+        pass
+    
+    try:
+        long = list(Path(session["SAMPLE"]).rglob("*long*.pdf"))[0]
+    except:
+        pass
+    
     checkv_tsv = list(Path(session["SAMPLE"]).rglob("*quality_summary.tsv"))[0]
 
     # plots
