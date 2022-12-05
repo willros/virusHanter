@@ -93,7 +93,7 @@ def contig_inspection():
     """
     # files
     megahit_csv = list(
-        Path(session["SAMPLE"]).joinpath("results/megahit").rglob("*.csv")
+        Path(session["SAMPLE"]).joinpath("megahit").rglob("*.csv")
     )[0]
 
     short = list(Path(session["SAMPLE"]).rglob("*short*.pdf"))[0]
