@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # config
 app.secret_key = "70c6a968ed1ada341dbcbf252b3ea3cf"
-app.config.SAMPLES = [str(x) for x in Path("static/data").iterdir() if x.is_dir()]
+app.config.SAMPLES = [str(x) for x in Path("static/data").iterdir() if x.is_dir() and not x.stem.startswith(".")]
 
 # ldap-login
 @app.before_request
