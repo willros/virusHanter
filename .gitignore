@@ -130,3 +130,5 @@ dmypy.json
 
 # static files
 static/
+templates/fastp_report*
+templates/krona_contig*
