@@ -1,0 +1,32 @@
+# VIRUSHANTER CONFIG
+# Do not add trailing "/", e.g. "SAMPLE_FOLDER/". Instead, use "SAMPLE_FOLDER" just.
+SAMPLES: ""
+RESULTS_FOLDER: ""
+
+# CLEAN FOLDER AFTERWARDS OR NOT
+CLEAN: "TRUE"
+
+# The prefix to the index
+HUMAN_INDEX : "/scratch/ref_dbs/BWA_GENCODE_GRCH38/human_gencode"
+VIRUS_INDEX_REFSEQ: "/scratch/ref_dbs/VIRUS_INDEX_REFSEQ/refseq_replaced_c_umea/refseq_replaced_c_umea"
+VIRUS_FASTA: "/scratch/ref_dbs/VIRUS_FASTA/viral.1.1.genomic.added_names_replaces_characters.fna"
+VIRUS_PARQUET: "/scratch/ref_dbs/INDIVIDUAL_VIRUS_FASTA/all_viruses.parquet"
+
+# DATABASES
+KRAKEN_DB: "/scratch/ref_dbs/KRAKEN_DB/standard"
+KAIJU_DB: "/scratch/ref_dbs/KAIJU_DB/refseq"
+
+BLASTN_DB: "/scratch/ref_dbs/BLAST_DB/blast_db/viral_rna_mito"
+BLASTDB_ENVIRON_VARIABLE: "/scratch/ref_dbs/BLAST_DB/blast_db/"
+CHECKV_DB: "/scratch/ref_dbs/CHECKV_DB/checkv-db-v1.4"
+
+# PERFORMANCE
+THREADS: 50
+
+# Parameters
+PLOT_THRESHOLD: 5
+NUMBER_OF_PLOTS: 10
+
+# Min length of de novo assembled contig
+CONTIG_LENGTH: 500
+
