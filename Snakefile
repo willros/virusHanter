@@ -1040,7 +1040,7 @@ rule bam2plot:
         n_refs=config["NUMBER_OF_PLOTS"],
         out_folder=f"{RESULT_FOLDER}/{{sample}}/COVERAGE_PLOTS",
     output:
-        out_folder=f"{RESULT_FOLDER}/{{sample}}/COVERAGE_PLOTS",
+        out_folder=directory(f"{RESULT_FOLDER}/{{sample}}/COVERAGE_PLOTS/"),
     log:
         f"{RESULT_FOLDER}/{{sample}}/logs/bam2plot.log",
     shell:
@@ -1052,7 +1052,7 @@ SECONDARY_HOST_NAME = config["SECONDARY_HOST_NAME"] if "SECONDARY_HOST_NAME" in 
 rule generate_report:
     input:
         flagstat=rules.remove_host.output.flagstat,
-        plot=rules.bam2plot.params.out_folder,
+        plot=rules.bam2plot.output.out_folder,
         blastn_file=rules.merge_checkv_blastn.output.merged,
         kraken_file=rules.wrangle_kraken.output.csv,
         kaiju_table=rules.kaiju_to_table.output.table,
